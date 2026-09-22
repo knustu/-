@@ -1,0 +1,55 @@
+{
+  "column_labels": {
+    "MANAGE_NO": "관리번호",
+    "PARK_NM": "공원명",
+    "PARK_SE": "공원구분",
+    "RDNMADR": "소재지도로명주소",
+    "LNMADR": "소재지지번주소",
+    "LATITUDE": "위도",
+    "LONGITUDE": "경도",
+    "PARK_AR": "공원면적",
+    "MVM_FCLTY": "공원보유시설(운동시설)",
+    "AMSMT_FCLTY": "공원보유시설(유희시설)",
+    "CNVNNC_FCLTY": "공원보유시설(편익시설)",
+    "CLTR_FCLTY": "공원보유시설(교양시설)",
+    "ETC_FCLTY": "공원보유시설(기타시설)",
+    "APPN_NTFC_DATE": "지정고시일",
+    "INSTITUTION_NM": "관리기관명",
+    "PHONE_NUMBER": "전화번호",
+    "REFERENCE_DATE": "데이터기준일자",
+    "INSTT_CODE": "제공기관코드",
+    "INSTT_NM": "제공기관명"
+  },
+  "parks": [
+    {
+      "manage_no": "27720-00003",
+      "name": "서부제3어린이공원",
+      "category": "어린이공원",
+      "address": "대구광역시 군위군 군위읍 중앙4길 16-6",
+      "lon": 128.5661865,
+      "lat": 36.23777564,
+      "area_sqm": 1627.0,
+      "reference_date": "2026-03-05"
+    },
+    {
+      "manage_no": "27720-00002",
+      "name": "서부제2어린이공원",
+      "category": "어린이공원",
+      "address": "대구광역시 군위군 군위읍 중앙3길 16-19",
+      "lon": 128.564392,
+      "lat": 36.2352952,
+      "area_sqm": 2150.0,
+      "reference_date": "2026-03-05"
+    },
+    {
+      "manage_no": "27720-00001",
+      "name": "동부제1어린이공원",
+      "category": "어린이공원",
+      "address": "대구광역시 군위군 군위읍 동서길 89-33",
+      "lon": 128.5707855,
+      "lat": 36.23775316,
+      "area_sqm": 1875.0,
+      "reference_date": "2026-03-05"
+    }
+  ]
+}

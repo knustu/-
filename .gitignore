@@ -1,0 +1,11 @@
+node_modules/
+.wrangler/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+.env.*
+.dev.vars
+
+# 생성물 — tools/build.py 가 만든다. 손으로 고치지 말 것
+public/data/

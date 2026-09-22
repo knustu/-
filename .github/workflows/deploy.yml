@@ -1,0 +1,44 @@
+name: Build and deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm ci
+
+      # derived/ 가 raw/ 에서 실제로 재생성되는지 확인한다.
+      # 원자료를 고치고 derived/ 를 갱신하지 않았거나, derived/ 를 손으로
+      # 고쳤으면 여기서 실패한다 — 드리프트 차단 지점.
+      - name: Regenerate derived and check it matches the commit
+        run: |
+          python tools/prepare.py
+          git diff --exit-code data/derived/
+
+      - run: python -m pytest tools/tests -q
+
+      - name: Build public/data
+        run: python tools/build.py
+
+      - uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}

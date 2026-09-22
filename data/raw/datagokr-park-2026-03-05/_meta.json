@@ -1,0 +1,26 @@
+{
+  "source_id": "DATAGOKR_PARK_2026_03_05",
+  "name": "전국도시공원정보 표준데이터 중 군위군",
+  "provider": "공공데이터포털 / 지방자치단체 제공",
+  "url": "https://www.data.go.kr/data/15012890/standard.do",
+  "reference_date": "2026-03-05",
+  "retrieved_at": "2026-09-11",
+  "retrieved_by": "팀 조사 (gunwi-civic-map research)",
+  "license": "공공데이터 제공 표준 이용조건 확인",
+  "provenance": "verified",
+  "notes": "표준데이터 등록 3건만 포함. 군내 공원·녹지 전수가 아니다. header.json은 컬럼 코드-한글명 매핑.",
+  "files": {
+    "capture.html": {
+      "sha256": "0498ed1328e514558e5b6fd80c17b754a410f619788ad96363e611a4583c2776",
+      "bytes": 1211522
+    },
+    "header.json": {
+      "sha256": "5dc85ddd403f197f9117781506bb9d6c8036b509a172505b314b7316f300e904",
+      "bytes": 5655
+    },
+    "parks.json": {
+      "sha256": "4990a093aa6f3bf22633d854dfbb4f9857bce5c8e7625c330eb2eeef211bb4e9",
+      "bytes": 1943
+    }
+  }
+}

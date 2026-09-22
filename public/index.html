@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>군위군 시설관리 우선지역 분석</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+<div id="provenance-banner" hidden></div>
+
+<header>
+  <h1>군위군 생활불편 민원 기반 시설관리 우선지역 분석</h1>
+  <p id="subtitle"></p>
+</header>
+
+<main>
+  <section id="map-pane">
+    <div id="map"></div>
+    <div id="legend"></div>
+  </section>
+
+  <aside id="side">
+    <div class="card">
+      <h2>기준시점</h2>
+      <div id="period-tabs" class="tabs"></div>
+    </div>
+
+    <div class="card">
+      <h2>지표</h2>
+      <ul id="indicator-list"></ul>
+    </div>
+
+    <div class="card">
+      <h2>읍면 순위</h2>
+      <ol id="ranking"></ol>
+    </div>
+
+    <div class="card" id="detail-card" hidden>
+      <h2>상세</h2>
+      <div id="detail"></div>
+    </div>
+
+    <div class="card">
+      <h2>데이터 출처</h2>
+      <div id="source-filters" class="tabs small"></div>
+      <ul id="sources"></ul>
+    </div>
+  </aside>
+</main>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "source_id": "MOIS_AGE_2025_12",
+  "name": "행정동별 연령별 주민등록인구",
+  "provider": "행정안전부 주민등록 인구통계",
+  "url": "https://jumin.mois.go.kr/ageStatMonth.do",
+  "reference_date": "2025-12-31",
+  "retrieved_at": "2026-09-11",
+  "retrieved_by": "팀 조사 (gunwi-civic-map research)",
+  "license": "공식 통계 출처표시",
+  "provenance": "verified",
+  "notes": "조회 화면을 capture.html로 보존. 군 합계 1행 + 읍면 8행 = 9행 구조.",
+  "files": {
+    "age.json": {
+      "sha256": "d2dc236996aca9ac788699d483d25f7b6b33efaab0b1e5cbf3b6b0bf3410fdd9",
+      "bytes": 4265
+    },
+    "capture.html": {
+      "sha256": "16898d96be9ffa1a3a1c093ed90d213a5c6ed1a42727889b00b2be5bcff092f5",
+      "bytes": 123895
+    }
+  }
+}
