@@ -209,7 +209,7 @@
       "request_status": "DATA_GO_KR_KEY 발급·활용신청 필요",
       "raw_dir": null,
       "used_for": ["민원발생률 직접 대체", "읍면 단위 민원 통계(미확인)"],
-      "notes": "포트홀 좌표(minPotholeLatLonInfo)는 다른 PC에서 수집 중이므로 제외. 2024년판이 '민원 발생지별'을 제공한다고 명시 — 읍면 단위 여부 최우선 확인. 오퍼레이션명은 기술문서(민원분석정보조회_v1.0.docx)에만 있음."
+      "notes": "포트홀 좌표(minPotholeLatLonInfo)는 다른 PC에서 수집 중이므로 제외. 기술문서로 오퍼레이션 확인 완료(docs/data-survey.md §1.5). 핵심은 2023 minAddrClsfDocCnt(민원발생지별×민원분야별 건수), 2022 minMrPopltnRtInfo5(지역 인구수 대비 민원건수). 지역 단위는 시도/시군구까지 — 읍면 단위는 제공되지 않음. 호출은 https://apis.data.go.kr 443 가능. 키는 저장소에 저장됨(보류 중): 사용하려면 시크릿 egress 프록시 활성화+게이트웨이 재시작 필요."
     },
     {
       "id": "GUNWI_BOARD",

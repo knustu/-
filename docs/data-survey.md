@@ -120,6 +120,38 @@
   (`2772025000` 계열)와 다르므로, 결합하려면 코드 대응표가 필요하다.
   `CLAUDE.md`의 "런타임 이름 매칭 금지" 원칙에 따라 **빌드 시점에 한 번만** 매핑해야 한다.
 
+## 1.5 민원빅데이터 API 명세 (기술문서에서 확인 완료)
+
+기술문서(`민원분석정보조회_v1.0.docx`, 포털 15114773 참고문서)를 받아 **오퍼레이션
+이름과 요청변수를 실제로 확인**했다. 추측이 아니라 문서 근거다.
+
+| 연도 | 서비스 URL | 오퍼레이션 | 국문명 | 요청변수(필수 `*`) |
+|---|---|---|---|---|
+| 2022 | `apis.data.go.kr/1140100/minAnalsInfoView5` | `minMrPopltnRtInfo5` | 지역 인구수 대비 민원 현황 | `serviceKey*`, `dateFrom*`, `dateTo*` |
+| 2022 | 〃 | `minMrfacetInfo5` | 민원발생 지역 순위 | `serviceKey*`, `dateFrom*`, `dateTo*` |
+| 2022 | 〃 | `minStaticsInfo5` | 맞춤형통계 | `serviceKey*`, `dateFrom*`, `dateTo*`, `mainSubCode`, `classificationMulti`, `sex`, `age`, `brtcNameAKeyword` |
+| **2023** | `apis.data.go.kr/1140100/minAnalsInfoView6` | **`minAddrClsfDocCnt`** | **민원발생지별 민원분야별 건수** | `serviceKey*`, `target*`(pttn,dfpt,saeol), `dateFrom*`, `dateTo*`, `sortBy`, `sortOrder` |
+| 2023 | 〃 | `minAgeClsfDocCnt` | 연령대별 민원분야별 건수 | 위와 동일 |
+| 2023 | 〃 | `minGndrClsfDocCnt` | 성별 민원분야별 건수 | 위와 동일 |
+| 2024 | `apis.data.go.kr/1140100/minAnalsInfoView7` | `minPttnStstAddrInfo` | 키워드 기반 민원 발생지별 | `serviceKey*`, … |
+| 2024 | 〃 | `minPotholeLatLonInfo` | 포트홀 민원 위경도 | `serviceKey*`, `dateFrom*`, `dateTo*` |
+| 2025 | `apis.data.go.kr/1140100/minAnalsInfoView8` | `minPrcsInstInfo` | 키워드 기반 처리기관별 민원건수 | `serviceKey*`, … |
+| 2025 | 〃 | `minActsSubordinateStatutesInfo` | 키워드 기반 법령정보 | `serviceKey*`, `target`, `searchword`, `dateFrom`, `dateTo` |
+
+- 응답의 `keyword` 필드가 **민원발생지 이름**(예: `서울특별시`)이다. 지역 단위는
+  **시도 또는 시군구**이며, 시군구는 `시도/시군구` 형태로 입력한다.
+  → **읍면 단위는 제공되지 않는다.** 군위군은 시군구 한 덩어리로만 나온다.
+- 응답 포맷 JSON/XML, 갱신주기 1일, 트래픽 개발계정 100/일.
+- 호출은 `https://apis.data.go.kr` 443으로 가능(키 없으면 401).
+
+### 키 사용 조건 (중요)
+
+`DATA_GO_KR_KEY` 는 마스킹 입력으로 **저장소에만 저장**돼 있고(로그·채팅에 없음),
+호출에 쓰려면 **시크릿 egress 프록시를 켜고 게이트웨이를 재시작**해야 한다
+(`secret` 항목은 기본적으로 서브프로세스 환경에 주입되지 않음).
+2026-10-14 현재 **보류** 결정. 재시작 없이 쓰려면 운영자가 env 항목으로 저장하는
+대안이 있으나 키가 에이전트 환경에 평문 노출된다.
+
 ## 2. 찾았는데 쓸 수 없던 것 (이유 포함)
 
 - **민원빅데이터 분석정보 API**: `DATA_GO_KR_KEY` 환경변수가 없어 호출 불가. 오퍼레이션
@@ -139,8 +171,10 @@
 
 ## 3. 다음에 사람이 해야 할 일
 
-1. **`DATA_GO_KR_KEY` 발급·등록** → 민원빅데이터 분석정보 API(2022~2025) 호출.
-   특히 2024년판의 "민원 발생지별" 오퍼레이션이 **읍면 단위를 주는지** 먼저 확인.
+1. **`DATA_GO_KR_KEY` 사용 개시** → 민원빅데이터 분석정보 API 호출.
+   키는 저장 완료. 시크릿 egress 프록시를 켜고 게이트웨이를 재시작하면 된다.
+   명세는 §1.5 참조. **읍면 단위는 안 나오고 시군구 단위까지만** 나온다는 점을
+   전제로 설계할 것.
 2. **군청 정보공개청구 발송** (`docs/requests/` 참조): 민원 처리대장, 가로등·보안등
    대장, 시설 점검·보수 이력, 상하수도 관망.
 3. **SGIS 경계 재투영**: 원본 zip(위 경로)을 GIS 도구로 열어 군위군 읍면 경계를
