@@ -1,0 +1,17 @@
+{
+  "name": "군위군 공유 폴더 압축파일",
+  "prepared_at": "2026-10-14",
+  "source_repository": "https://github.com/knustu/-",
+  "contents_commit": "27cf17ed35aedaea6cdb30b703c094245f095722",
+  "canonical_source_registry": "군위군/자료/data/sources.json",
+  "file_provenance_manifest": "군위군/공유폴더_메타데이터.json",
+  "contains_frozen_originals": true,
+  "drive_uploaded": false,
+  "files": {
+    "군위군_공유자료.zip": {
+      "sha256": "1be277584f1dd03307edf9c9107f70317a14f16c0c22e9e28874adbe34671391",
+      "bytes": 5920405
+    }
+  },
+  "notes": "ZIP의 군위군 폴더를 압축 해제한 뒤 Drive에 폴더 업로드 가능. 공유 권한은 Drive에서 별도로 설정해야 한다. 폴더 안 최상위 파일은 빠른 확인용 정제본 사본이며 공식 출처와 원본 경로는 자료/ 아래에 유지한다."
+}
