@@ -1,0 +1,95 @@
+{
+  "source_id": "SGIS_ADM_STAT_2025",
+  "name": "SGIS 행정구역 통계 및 경계 중 군위군(제공용 코드 22520)",
+  "provider": "국가데이터처(통계청) 통계지리정보서비스(SGIS)",
+  "url": "https://www.data.go.kr/data/15129688/fileData.do",
+  "reference_date": "2024-12-31(통계) / 2025-06-30(경계 2025 2Q)",
+  "retrieved_at": "2026-10-14",
+  "retrieved_by": "agent(data-survey)",
+  "license": "공공데이터포털 이용조건 확인 필요(출처표시)",
+  "provenance": "verified",
+  "notes": "전국 원본 15129688.zip(269,032,521 bytes, sha256 f1cf0f9de453ac7eaacb273f39cee52851183372b9ddfda428a967c3a670b2c6)은 50MB 초과로 커밋하지 않고 ~/Downloads/gunwi-dl/15129688-sgis-admstat-boundary-2025-2q.zip 에 보관. 본 폴더는 그 전국 파일에서 군위군(제공용 코드 22520) 행만 필터링한 것. 값은 가공/보간 없음. 경계 shp(시도/시군구/행정동 2025 2Q, EPSG:5179 Korea2000 UTM-K)는 원본 zip 안에만 있고 추출은 GIS 도구 필요.",
+  "files": {
+    "2025년기준_2024년_산업분류별(11차_대분류)_총괄사업체수.csv": {
+      "sha256": "92c8ea0b53c15940481873ca279908d1f2c9cdb3f00bd23e65c8ea197634eb32",
+      "bytes": 299
+    },
+    "2025년기준_2024년_산업분류별(11차_대분류)_총괄종사자수.csv": {
+      "sha256": "9ee6bdb881a518479cdf49ad44f7c7c0604694093a24fd3e08fc1171aee51532",
+      "bytes": 300
+    },
+    "2025년기준_2024년_산업분류별(11차_대분류)_사업체수.csv": {
+      "sha256": "6bd9c7e57d90094e83983e12f2bc0f8d4506cbbea6af2aef82acebff5d881629",
+      "bytes": 4415
+    },
+    "2025년기준_2024년_산업분류별(11차_대분류)_종사자수.csv": {
+      "sha256": "0976c0779d2a23ba32850254a8bce4dc62854bf97668949643c9b145f7b4f241",
+      "bytes": 4544
+    },
+    "2025년기준_2024년_산업분류별(11차_중분류)_사업체수.csv": {
+      "sha256": "07240f15942fd8f29ec2b2f8c963cfa8b6ed7d0c70abe9e0d5efde5c8b2ebfb7",
+      "bytes": 9717
+    },
+    "2025년기준_2024년_산업분류별(11차_중분류)_종사자수.csv": {
+      "sha256": "1645307898f81517a87c378a1b5828dd8811b40055fa11657ab3be67d88989fb",
+      "bytes": 10095
+    },
+    "2025년기준_2024년_건축년도별주택.csv": {
+      "sha256": "d835f7ac37d9023f2829e16f9b35f8c6888843b54a2f1408e9ecc4c1432620c5",
+      "bytes": 5046
+    },
+    "2025년기준_2024년_세대구성별가구.csv": {
+      "sha256": "0d22999ee4d72a94cb0af545eb89c27794470c10ad7cfc79407dbd766472f30b",
+      "bytes": 1402
+    },
+    "2025년기준_2024년_주택유형별주택.csv": {
+      "sha256": "ceef5b2e34b8bb9e4fb21dd05b0aa3fac57482f0a8b439e3597fba37a0abc438",
+      "bytes": 1193
+    },
+    "2025년기준_2024년_성연령별인구.csv": {
+      "sha256": "68375b590502579183d9d2eb49c34709619552d0fa4aeceae337c6311ef01963",
+      "bytes": 15850
+    },
+    "2025년기준_2024년_연건평별주택.csv": {
+      "sha256": "025aaa5a74144d86f3393cfceb47762d0d2f1412336e0f28e8c0aaaf42adbaaa",
+      "bytes": 2266
+    },
+    "2025년기준_2024년_인구총괄(노년부양비).csv": {
+      "sha256": "de21f2e89be6dd9957283326866bdcbca5f3be6ebb1c17e61c7b7e5b95d2134d",
+      "bytes": 310
+    },
+    "2025년기준_2024년_인구총괄(노령화지수).csv": {
+      "sha256": "c24ec9cda728def390da8c7abc8429d734bc365e229567bc23f56792e18443c6",
+      "bytes": 321
+    },
+    "2025년기준_2024년_인구총괄(유년부양비).csv": {
+      "sha256": "85d48397ea0bb166da519eda04f180c435c6b6bf693fcbbcf653156e8fb8b176",
+      "bytes": 298
+    },
+    "2025년기준_2024년_인구총괄(인구밀도).csv": {
+      "sha256": "890582ac2785f674a521836042392f846748b522441b1996e7d26a22afe252ad",
+      "bytes": 304
+    },
+    "2025년기준_2024년_인구총괄(평균나이).csv": {
+      "sha256": "c7db64333efd1016b0bc71f89cfbe4230fdf2546cb0d2823d7461eec5e5fd878",
+      "bytes": 304
+    },
+    "2025년기준_2024년_인구총괄(총인구).csv": {
+      "sha256": "90941357573948bf3232174bd1dd081f1524f1e59b7d0040cab45dc903739e2c",
+      "bytes": 836
+    },
+    "2025년기준_2024년_가구총괄.csv": {
+      "sha256": "936ff38585aa4e6f7517f001d68a4a69ec1408cb660fd19b8efe1c9a07aafd66",
+      "bytes": 562
+    },
+    "2025년기준_2024년_주택총괄_총주택(거처)수.csv": {
+      "sha256": "bda79f901686f377cbf0dedfebc9e1b416b5c3a5f55741ddbb7a615e676dbcfb",
+      "bytes": 302
+    },
+    "capture.html": {
+      "sha256": "95c1e170763e9f4fb6897945fcb0f71ad4f9c4d35d006ca2525d61203175ab87",
+      "bytes": 166309
+    }
+  },
+  "encoding": "cp949"
+}
