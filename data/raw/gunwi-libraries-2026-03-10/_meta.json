@@ -1,0 +1,27 @@
+{
+  "source_id": "GUNWI_LIBRARIES",
+  "name": "군위군 도서관 표준데이터",
+  "provider": "대구광역시 군위군",
+  "url": "https://www.data.go.kr/data/15013109/standard.do",
+  "reference_date": "2026-03-10",
+  "retrieved_at": "2026-10-14",
+  "retrieved_by": "Codex",
+  "license": "이용허락범위 제한 없음",
+  "provenance": "verified",
+  "notes": "작은도서관 2곳, 주소만 있고 좌표 없음. 새마을문고는 군위군 새마을회 운영.",
+  "files": {
+    "library_0.csv": {
+      "sha256": "3aaae9813cb91bd4c49db71bd9888b6f4f63663cf94f7499d5aa33fac16ede59",
+      "bytes": 984
+    },
+    "detail_library_0.html": {
+      "sha256": "42fb5b25b7c80a36b1651e4abc7767cd9e7f6d37e60d994be06acbba4ecd7e7b",
+      "bytes": 7576
+    },
+    "detail_library_0.json": {
+      "sha256": "9d3fbaec96d1b513e7becf647b3b0b35c13a92229c05552b4bd001e940817a3e",
+      "bytes": 1070
+    }
+  },
+  "encoding": "utf-8-sig"
+}

@@ -1,0 +1,659 @@
+{
+  "source_id": "GUNWI_GIT_IMPORT",
+  "imported_commit": "3340f8ab0f19b120c9b83504e17875fc21b648de",
+  "retrieved_at": "2026-10-14",
+  "provenance": "verified_import",
+  "original_government_bytes": false,
+  "notes": "파일별 SHA256은 출발 Git 커밋과 동일. 모든 경로는 저장소 루트 기준. 공식 출처 정보는 data/sources.json에 연결. 동결 ZIP은 raw_dir에 보관.",
+  "files": {
+    "data/gunwi/living/15012890_gunwi.csv": {
+      "source_ids": [
+        "DATAGOKR_PARK"
+      ],
+      "source_url": "https://www.data.go.kr/data/15012890/standard.do",
+      "reference_date": "2026-03-05",
+      "transformation": "어린이공원 3곳; 군내 공원 전수가 아니다.",
+      "imported_path": "data/gunwi/living/15012890_gunwi.csv",
+      "sha256": "3a5e3e6aa5b82df85701a9fe264acaeac7e74db9d0d69c920124f4bd62e30084",
+      "bytes": 1236,
+      "received_from": "https://github.com/knustu/-/blob/3340f8ab0f19b120c9b83504e17875fc21b648de/data/gunwi/living/15012890_gunwi.csv"
+    },
+    "data/gunwi/living/15021141_gunwi.csv": {
+      "source_ids": [
+        "DATAGOKR_GUNWI_TOURISM"
+      ],
+      "source_url": "https://www.data.go.kr/data/15021141/standard.do",
+      "reference_date": "2026-08-18",
+      "transformation": "관광지 3곳. 도시공원 목록과 구분한다.",
+      "imported_path": "data/gunwi/living/15021141_gunwi.csv",
+      "sha256": "3d287e4828803091b95ebc34a3d74d41dee949c5368da1a88cce497ac6d775f4",
+      "bytes": 1655,
+      "received_from": "https://github.com/knustu/-/blob/3340f8ab0f19b120c9b83504e17875fc21b648de/data/gunwi/living/15021141_gunwi.csv"
+    },
+    "data/gunwi/living/군위군_공중화장실현황_2025.csv": {
+      "source_ids": [
+        "GUNWI_TOILETS_2025"
+      ],
+      "source_url": "https://www.gunwi.go.kr/board_download.do?file_uid=166929",
+      "reference_date": "2025",
+      "transformation": "파일명 기준연도, 게시일 2025-07-08. 정확한 조사일 미기재. 148곳, 주소·비상벨 정보, 좌표 없음. XLSX에서 CSV로 변환.",
+      "imported_path": "data/gunwi/living/군위군_공중화장실현황_2025.csv",
+      "sha256": "662602b6429f0dfa473ea10c2e5508c1ad9bc304b372befc72a0b4eaf4b8e901",
+      "bytes": 21957,
+      "received_from": "https://github.com/knustu/-/blob/3340f8ab0f19b120c9b83504e17875fc21b648de/data/gunwi/living/군위군_공중화장실현황_2025.csv"
+    },
+    "data/gunwi/living/군위군_공중화장실현황_2025.xlsx": {
+      "source_ids": [
+        "GUNWI_TOILETS_2025"
+      ],
+      "source_url": "https://www.gunwi.go.kr/board_download.do?file_uid=166929",
+      "reference_date": "2025",
+      "transformation": "파일명 기준연도, 게시일 2025-07-08. 정확한 조사일 미기재. 148곳, 주소·비상벨 정보, 좌표 없음. XLSX에서 CSV로 변환.",
+      "imported_path": "data/gunwi/living/군위군_공중화장실현황_2025.xlsx",
+      "sha256": "2be085f7cc72db7351422cd6d0f05a4e1ddef29f79cbe4254af057328b6c5c2a",
+      "bytes": 20544,
+      "received_from": "https://github.com/knustu/-/blob/3340f8ab0f19b120c9b83504e17875fc21b648de/data/gunwi/living/군위군_공중화장실현황_2025.xlsx"
+    },
+    "data/gunwi/living/15017320_gunwi.csv": {
+      "source_ids": [
+        "DATAGOKR_SECURITY_LAMP"
+      ],
+      "source_url": "https://www.data.go.kr/data/15017320/standard.do",
+      "reference_date": "2026-04-03",
+      "transformation": "940행. 주소만 제공, 좌표·설치연도·형태 빈 값. 일반 가로등 전수 자료가 아니다.",
+      "imported_path": "data/gunwi/living/15017320_gunwi.csv",
+      "sha256": "a2ce39a9501523a492d14125e7135abc3cd9bb81b58d77e5c2d884699f8ff5f7",
+      "bytes": 120505,
+      "received_from": "https://github.com/knustu/-/blob/3340f8ab0f19b120c9b83504e17875fc21b648de/data/gunwi/living/15017320_gunwi.csv"
+    },
+    "data/gunwi/living/15114136_gunwi.csv": {
+      "source_ids": [
+        "DATAGOKR_GUNWI_SENIOR"
+      ],
+      "source_url": "https://www.data.go.kr/data/15114136/standard.do",
+      "reference_date": "2025-12-19",
+      "transformation": "215행, 좌표·건립일자·면적. 경로당을 무더위쉼터로 자동 간주하지 않는다.",
+      "imported_path": "data/gunwi/living/15114136_gunwi.csv",
+      "sha256": "bbcf529fe02d1681ccaf68672d497699de3ab210168985c558683a7598a21606",
+      "bytes": 37445,
+      "received_from": "https://github.com/knustu/-/blob/3340f8ab0f19b120c9b83504e17875fc21b648de/data/gunwi/living/15114136_gunwi.csv"
+    },
+    "data/gunwi/living/15100063_gunwi.csv": {
+      "source_ids": [
+        "DATAGOKR_GUNWI_BICYCLE"
+      ],
+      "source_url": "https://www.data.go.kr/data/15100063/standard.do",
+      "reference_date": "2026-03-05",
+      "transformation": "3구간, 기종점 6개. 실제 선형 없음. 원문 주소 읍면 불일치 유지.",
+      "imported_path": "data/gunwi/living/15100063_gunwi.csv",
+      "sha256": "8ec85f247cc8febc889c1fb842a17b942188c6bb27130e05ab37e1f61dd481ac",
+      "bytes": 1694,
+      "received_from": "https://github.com/knustu/-/blob/3340f8ab0f19b120c9b83504e17875fc21b648de/data/gunwi/living/15100063_gunwi.csv"
+    },
+    "data/gunwi/living/15144103.csv": {
+      "source_ids": [
+        "DATAGOKR_GUNWI_WATER_SUPPLY_RATE"
+      ],
+      "source_url": "https://www.data.go.kr/data/15144103/fileData.do",
+      "reference_date": "2025-12-31",
+      "transformation": "읍면 8행. 시설 위치 데이터 아님.",
+      "imported_path": "data/gunwi/living/15144103.csv",
+      "sha256": "86c86baadacf882952de3f13877a47991df18e45db7424af1785d12bb7dd02f8",
+      "bytes": 407,
+      "received_from": "https://github.com/knustu/-/blob/3340f8ab0f19b120c9b83504e17875fc21b648de/data/gunwi/living/15144103.csv"
+    },
+    "data/gunwi/fire/15133820.csv": {
+      "source_ids": [
+        "DATAGOKR_15133820"
+      ],
+      "source_url": "https://www.data.go.kr/data/15133820/fileData.do",
+      "reference_date": "2026-08-26",
+      "transformation": "이관 자료: UTF-8 BOM 변환 및 군위 관련 추출. 152행 중 철거 1행; 과거 경상북도·의성 관할 표기 잔존, 개별 점검 최신성 미확인.",
+      "imported_path": "data/gunwi/fire/15133820.csv",
+      "sha256": "7ae8af4a0d7587468334907cf63a0cb25736cb281230556da07226d466cdb67d",
+      "bytes": 2775863,
+      "received_from": "https://github.com/knustu/-/blob/3340f8ab0f19b120c9b83504e17875fc21b648de/data/gunwi/fire/15133820.csv"
+    },
+    "data/gunwi/fire/군위군_소방용수시설.csv": {
+      "source_ids": [
+        "DATAGOKR_15133820"
+      ],
+      "source_url": "https://www.data.go.kr/data/15133820/fileData.do",
+      "reference_date": "2026-08-26",
+      "transformation": "이관 자료: UTF-8 BOM 변환 및 군위 관련 추출. 152행 중 철거 1행; 과거 경상북도·의성 관할 표기 잔존, 개별 점검 최신성 미확인.",
+      "imported_path": "data/gunwi/fire/군위군_소방용수시설.csv",
+      "sha256": "1ab5b5c326f8ec4d05b56a203e786ca82d3bc28a2b2f2eb603aaa6bec1e0ce05",
+      "bytes": 26572,
+      "received_from": "https://github.com/knustu/-/blob/3340f8ab0f19b120c9b83504e17875fc21b648de/data/gunwi/fire/군위군_소방용수시설.csv"
+    },
+    "data/gunwi/fire/15065056.csv": {
+      "source_ids": [
+        "DATAGOKR_15065056"
+      ],
+      "source_url": "https://www.data.go.kr/data/15065056/fileData.do",
+      "reference_date": "2026-07-01",
+      "transformation": "이관 자료: UTF-8 BOM 변환 및 군위 관련 추출.",
+      "imported_path": "data/gunwi/fire/15065056.csv",
+      "sha256": "50aba8614d360ed6c3d48912578641c4dbc6b88e0c17013be58b89ed83b7bf24",
+      "bytes": 154417,
+      "received_from": "https://github.com/knustu/-/blob/3340f8ab0f19b120c9b83504e17875fc21b648de/data/gunwi/fire/15065056.csv"
+    },
+    "data/gunwi/fire/군위군_119안전센터.csv": {
+      "source_ids": [
+        "DATAGOKR_15065056"
+      ],
+      "source_url": "https://www.data.go.kr/data/15065056/fileData.do",
+      "reference_date": "2026-07-01",
+      "transformation": "이관 자료: UTF-8 BOM 변환 및 군위 관련 추출.",
+      "imported_path": "data/gunwi/fire/군위군_119안전센터.csv",
+      "sha256": "3433b7b827992e339226aff2b34568dcc153feff21c174307b429f802393ebfa",
+      "bytes": 339,
+      "received_from": "https://github.com/knustu/-/blob/3340f8ab0f19b120c9b83504e17875fc21b648de/data/gunwi/fire/군위군_119안전센터.csv"
+    },
+    "data/gunwi/fire/15048243.csv": {
+      "source_ids": [
+        "DATAGOKR_15048243"
+      ],
+      "source_url": "https://www.data.go.kr/data/15048243/fileData.do",
+      "reference_date": "2026-07-01",
+      "transformation": "이관 자료: UTF-8 BOM 변환 및 군위 관련 추출. 대구 강북소방서는 군위 관할이나 군위 밖에 위치.",
+      "imported_path": "data/gunwi/fire/15048243.csv",
+      "sha256": "0bc8958e2affecc3b948134f26678698a35db626e8d170e11d3395cf0694c0fb",
+      "bytes": 29023,
+      "received_from": "https://github.com/knustu/-/blob/3340f8ab0f19b120c9b83504e17875fc21b648de/data/gunwi/fire/15048243.csv"
+    },
+    "data/gunwi/fire/군위군_관할소방서.csv": {
+      "source_ids": [
+        "DATAGOKR_15048243"
+      ],
+      "source_url": "https://www.data.go.kr/data/15048243/fileData.do",
+      "reference_date": "2026-07-01",
+      "transformation": "이관 자료: UTF-8 BOM 변환 및 군위 관련 추출. 대구 강북소방서는 군위 관할이나 군위 밖에 위치.",
+      "imported_path": "data/gunwi/fire/군위군_관할소방서.csv",
+      "sha256": "aba7ea32e021338921370761f561da58b76a924fe8eee80e866a730d3d50ae40",
+      "bytes": 165,
+      "received_from": "https://github.com/knustu/-/blob/3340f8ab0f19b120c9b83504e17875fc21b648de/data/gunwi/fire/군위군_관할소방서.csv"
+    },
+    "data/gunwi/fire/15113282.csv": {
+      "source_ids": [
+        "DATAGOKR_15113282"
+      ],
+      "source_url": "https://www.data.go.kr/data/15113282/fileData.do",
+      "reference_date": "2026-07-01",
+      "transformation": "이관 자료: UTF-8 BOM 변환 및 군위 관련 추출.",
+      "imported_path": "data/gunwi/fire/15113282.csv",
+      "sha256": "c698c7e54db3fd489be497e7046235b508d5ce06f9e3942a33c17bbb816d299b",
+      "bytes": 79228,
+      "received_from": "https://github.com/knustu/-/blob/3340f8ab0f19b120c9b83504e17875fc21b648de/data/gunwi/fire/15113282.csv"
+    },
+    "data/gunwi/fire/군위군_구급차운영거점.csv": {
+      "source_ids": [
+        "DATAGOKR_15113282"
+      ],
+      "source_url": "https://www.data.go.kr/data/15113282/fileData.do",
+      "reference_date": "2026-07-01",
+      "transformation": "이관 자료: UTF-8 BOM 변환 및 군위 관련 추출.",
+      "imported_path": "data/gunwi/fire/군위군_구급차운영거점.csv",
+      "sha256": "f4deebb27808f1530dfb08d1354988f17126cf157ed8bc50c5a1e4f28f4dd94f",
+      "bytes": 283,
+      "received_from": "https://github.com/knustu/-/blob/3340f8ab0f19b120c9b83504e17875fc21b648de/data/gunwi/fire/군위군_구급차운영거점.csv"
+    },
+    "data/gunwi/fire/15033759.csv": {
+      "source_ids": [
+        "DATAGOKR_15033759"
+      ],
+      "source_url": "https://www.data.go.kr/data/15033759/fileData.do",
+      "reference_date": "2026-07-01",
+      "transformation": "이관 자료: UTF-8 BOM 변환 및 군위 관련 추출.",
+      "imported_path": "data/gunwi/fire/15033759.csv",
+      "sha256": "288be35d3410b4e125dea542eeee1fab4e2cd68100c11d33ef968c0eb34ca9bd",
+      "bytes": 1362,
+      "received_from": "https://github.com/knustu/-/blob/3340f8ab0f19b120c9b83504e17875fc21b648de/data/gunwi/fire/15033759.csv"
+    },
+    "data/gunwi/fire/대구광역시_소방관서집계.csv": {
+      "source_ids": [
+        "DATAGOKR_15033759"
+      ],
+      "source_url": "https://www.data.go.kr/data/15033759/fileData.do",
+      "reference_date": "2026-07-01",
+      "transformation": "이관 자료: UTF-8 BOM 변환 및 군위 관련 추출.",
+      "imported_path": "data/gunwi/fire/대구광역시_소방관서집계.csv",
+      "sha256": "ea2d3c0c32aa9238e06fac21b4326f6a2e4f87fbb582aba00f725603aa2fa34c",
+      "bytes": 209,
+      "received_from": "https://github.com/knustu/-/blob/3340f8ab0f19b120c9b83504e17875fc21b648de/data/gunwi/fire/대구광역시_소방관서집계.csv"
+    },
+    "data/gunwi/roads/15049952.csv": {
+      "source_ids": [
+        "DATAGOKR_15049952"
+      ],
+      "source_url": "https://www.data.go.kr/data/15049952/fileData.do",
+      "reference_date": "2025-01-15",
+      "transformation": "이관 자료: UTF-8 BOM 변환 및 군위 관련 추출. 군위 명칭 링크 30행; 실제 도로 선형 없음, 전수 도로망 아님.",
+      "imported_path": "data/gunwi/roads/15049952.csv",
+      "sha256": "f9ecf6b466f018801494ee37887372617b3938cb4a24886223c2b34f91e39e6d",
+      "bytes": 413077,
+      "received_from": "https://github.com/knustu/-/blob/3340f8ab0f19b120c9b83504e17875fc21b648de/data/gunwi/roads/15049952.csv"
+    },
+    "data/gunwi/roads/군위명칭_도로표준링크.csv": {
+      "source_ids": [
+        "DATAGOKR_15049952"
+      ],
+      "source_url": "https://www.data.go.kr/data/15049952/fileData.do",
+      "reference_date": "2025-01-15",
+      "transformation": "이관 자료: UTF-8 BOM 변환 및 군위 관련 추출. 군위 명칭 링크 30행; 실제 도로 선형 없음, 전수 도로망 아님.",
+      "imported_path": "data/gunwi/roads/군위명칭_도로표준링크.csv",
+      "sha256": "dc1c3975054475093562908c8dced9e35d7b03a2cb55df5e38772ec9c4693971",
+      "bytes": 2495,
+      "received_from": "https://github.com/knustu/-/blob/3340f8ab0f19b120c9b83504e17875fc21b648de/data/gunwi/roads/군위명칭_도로표준링크.csv"
+    },
+    "data/gunwi/roads/15049953.csv": {
+      "source_ids": [
+        "DATAGOKR_15049953"
+      ],
+      "source_url": "https://www.data.go.kr/data/15049953/fileData.do",
+      "reference_date": "2025-01-15",
+      "transformation": "이관 자료: UTF-8 BOM 변환 및 군위 관련 추출. 군위 명칭 후보 441행 모두 위도 36.962148~37.201088로 군위 범위 밖; GIS 사용 제외.",
+      "imported_path": "data/gunwi/roads/15049953.csv",
+      "sha256": "0267276954dbcb4d3d1dcff3c5e04ae48e699135f37c575e57f33b0bab95fa85",
+      "bytes": 737702,
+      "received_from": "https://github.com/knustu/-/blob/3340f8ab0f19b120c9b83504e17875fc21b648de/data/gunwi/roads/15049953.csv"
+    },
+    "data/gunwi/roads/군위명칭_도로표준노드_검토필요.csv": {
+      "source_ids": [
+        "DATAGOKR_15049953"
+      ],
+      "source_url": "https://www.data.go.kr/data/15049953/fileData.do",
+      "reference_date": "2025-01-15",
+      "transformation": "이관 자료: UTF-8 BOM 변환 및 군위 관련 추출. 군위 명칭 후보 441행 모두 위도 36.962148~37.201088로 군위 범위 밖; GIS 사용 제외.",
+      "imported_path": "data/gunwi/roads/군위명칭_도로표준노드_검토필요.csv",
+      "sha256": "3537e86a5990e56828a2975f53f11a12ea4a301ee756c9b162d12f625f9a2015",
+      "bytes": 68143,
+      "received_from": "https://github.com/knustu/-/blob/3340f8ab0f19b120c9b83504e17875fc21b648de/data/gunwi/roads/군위명칭_도로표준노드_검토필요.csv"
+    },
+    "data/gunwi/complaints/군위군_공개민원질의응답_2026.csv": {
+      "source_ids": [
+        "DATAGOKR_15164540"
+      ],
+      "source_url": "https://www.data.go.kr/data/15164540/fileData.do",
+      "reference_date": "2026-08-24",
+      "transformation": "이관 자료: UTF-8 BOM 변환 및 군위 관련 추출. 2025년 이후 군위 관련 공개 Q&A 25행(모두 2026), 도로 관련 4행. 전체 민원대장 아님; 발생 주소·좌표 없음.",
+      "imported_path": "data/gunwi/complaints/군위군_공개민원질의응답_2026.csv",
+      "sha256": "68b50d65d31e7ea75bbce027c62cc3dd07131f39956f1935a1ad321017967d4b",
+      "bytes": 23910,
+      "received_from": "https://github.com/knustu/-/blob/3340f8ab0f19b120c9b83504e17875fc21b648de/data/gunwi/complaints/군위군_공개민원질의응답_2026.csv"
+    },
+    "data/gunwi/complaints/군위군_도로관련민원사례_2026.csv": {
+      "source_ids": [
+        "DATAGOKR_15164540"
+      ],
+      "source_url": "https://www.data.go.kr/data/15164540/fileData.do",
+      "reference_date": "2026-08-24",
+      "transformation": "이관 자료: UTF-8 BOM 변환 및 군위 관련 추출. 2025년 이후 군위 관련 공개 Q&A 25행(모두 2026), 도로 관련 4행. 전체 민원대장 아님; 발생 주소·좌표 없음.",
+      "imported_path": "data/gunwi/complaints/군위군_도로관련민원사례_2026.csv",
+      "sha256": "4fef566c722386895b4a47dab1cf865831700c84ba410739469f3f838f23a049",
+      "bytes": 3474,
+      "received_from": "https://github.com/knustu/-/blob/3340f8ab0f19b120c9b83504e17875fc21b648de/data/gunwi/complaints/군위군_도로관련민원사례_2026.csv"
+    },
+    "data/gunwi/complaints/군위군_민원처리기간준수_20260630.csv": {
+      "source_ids": [
+        "DATAGOKR_3070147"
+      ],
+      "source_url": "https://www.data.go.kr/data/3070147/fileData.do",
+      "reference_date": "2026-06-30",
+      "transformation": "이관 자료: UTF-8 BOM 변환 및 군위 관련 추출. 군위군 기관 합계 1행: 처리570/기한내541/초과29. 시설별·읍면별 지표 대체 불가.",
+      "imported_path": "data/gunwi/complaints/군위군_민원처리기간준수_20260630.csv",
+      "sha256": "0ad9b381f4fdf4bad49be8e07842bff45c2290813794354b250543ccdaddb613",
+      "bytes": 155,
+      "received_from": "https://github.com/knustu/-/blob/3340f8ab0f19b120c9b83504e17875fc21b648de/data/gunwi/complaints/군위군_민원처리기간준수_20260630.csv"
+    },
+    ".gitkeep": {
+      "source_ids": [
+        "DATAGOKR_15033759",
+        "DATAGOKR_15048243",
+        "DATAGOKR_15049952",
+        "DATAGOKR_15049953",
+        "DATAGOKR_15065056",
+        "DATAGOKR_15113282",
+        "DATAGOKR_15133820",
+        "DATAGOKR_15164540",
+        "DATAGOKR_3070147",
+        "DATAGOKR_GUNWI_BICYCLE",
+        "DATAGOKR_GUNWI_SENIOR",
+        "DATAGOKR_GUNWI_TOURISM",
+        "DATAGOKR_GUNWI_WATER_SUPPLY_RATE",
+        "DATAGOKR_PARK",
+        "DATAGOKR_SECURITY_LAMP",
+        "GUNWI_TOILETS_2025"
+      ],
+      "transformation": "이관 당시 안내·출처 카드·파생 자료 또는 공유 ZIP. 원출처는 source_ids로 data/sources.json에서 조회.",
+      "imported_path": ".gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "received_from": "https://github.com/knustu/-/blob/3340f8ab0f19b120c9b83504e17875fc21b648de/.gitkeep"
+    },
+    "FACILITY_DATA_README.md": {
+      "source_ids": [
+        "DATAGOKR_15033759",
+        "DATAGOKR_15048243",
+        "DATAGOKR_15049952",
+        "DATAGOKR_15049953",
+        "DATAGOKR_15065056",
+        "DATAGOKR_15113282",
+        "DATAGOKR_15133820",
+        "DATAGOKR_15164540",
+        "DATAGOKR_3070147",
+        "DATAGOKR_GUNWI_BICYCLE",
+        "DATAGOKR_GUNWI_SENIOR",
+        "DATAGOKR_GUNWI_TOURISM",
+        "DATAGOKR_GUNWI_WATER_SUPPLY_RATE",
+        "DATAGOKR_PARK",
+        "DATAGOKR_SECURITY_LAMP",
+        "GUNWI_TOILETS_2025"
+      ],
+      "transformation": "이관 당시 안내·출처 카드·파생 자료 또는 공유 ZIP. 원출처는 source_ids로 data/sources.json에서 조회.",
+      "imported_path": "FACILITY_DATA_README.md",
+      "sha256": "eb6472abaa6e7f5c325331e7b43e42833de3690950fbc4189192d9c83306f894",
+      "bytes": 1897,
+      "received_from": "https://github.com/knustu/-/blob/3340f8ab0f19b120c9b83504e17875fc21b648de/README.md"
+    },
+    "data/gunwi/complaints/sources.json": {
+      "source_ids": [
+        "DATAGOKR_15164540",
+        "DATAGOKR_3070147"
+      ],
+      "transformation": "이관 당시 안내·출처 카드·파생 자료 또는 공유 ZIP. 원출처는 source_ids로 data/sources.json에서 조회.",
+      "imported_path": "data/gunwi/complaints/sources.json",
+      "sha256": "f735e237b29f6566512f676db92044298c65133d1b122df96e8f3bbdc30b1a80",
+      "bytes": 2467,
+      "received_from": "https://github.com/knustu/-/blob/3340f8ab0f19b120c9b83504e17875fc21b648de/data/gunwi/complaints/sources.json"
+    },
+    "data/gunwi/complaints/읽어주세요.md": {
+      "source_ids": [
+        "DATAGOKR_15164540",
+        "DATAGOKR_3070147"
+      ],
+      "transformation": "이관 당시 안내·출처 카드·파생 자료 또는 공유 ZIP. 원출처는 source_ids로 data/sources.json에서 조회.",
+      "imported_path": "data/gunwi/complaints/읽어주세요.md",
+      "sha256": "365e43fd50f1e325fbcc8e6b5e64e58d3531db6d8f2bf0818ed35e8cbd120dcb",
+      "bytes": 1735,
+      "received_from": "https://github.com/knustu/-/blob/3340f8ab0f19b120c9b83504e17875fc21b648de/data/gunwi/complaints/읽어주세요.md"
+    },
+    "data/gunwi/fire/sources.json": {
+      "source_ids": [
+        "DATAGOKR_15033759",
+        "DATAGOKR_15048243",
+        "DATAGOKR_15065056",
+        "DATAGOKR_15113282",
+        "DATAGOKR_15133820"
+      ],
+      "transformation": "이관 당시 안내·출처 카드·파생 자료 또는 공유 ZIP. 원출처는 source_ids로 data/sources.json에서 조회.",
+      "imported_path": "data/gunwi/fire/sources.json",
+      "sha256": "b23499469004b9f949cd234a572125f2eca93d13f1a2d6c68bd3829b79456fdc",
+      "bytes": 8341,
+      "received_from": "https://github.com/knustu/-/blob/3340f8ab0f19b120c9b83504e17875fc21b648de/data/gunwi/fire/sources.json"
+    },
+    "data/gunwi/fire/읽어주세요.md": {
+      "source_ids": [
+        "DATAGOKR_15033759",
+        "DATAGOKR_15048243",
+        "DATAGOKR_15065056",
+        "DATAGOKR_15113282",
+        "DATAGOKR_15133820"
+      ],
+      "transformation": "이관 당시 안내·출처 카드·파생 자료 또는 공유 ZIP. 원출처는 source_ids로 data/sources.json에서 조회.",
+      "imported_path": "data/gunwi/fire/읽어주세요.md",
+      "sha256": "853e7c6ff6e48af760ea66c50cc43763d62365f6d2b2d24ce2008a715991a185",
+      "bytes": 3211,
+      "received_from": "https://github.com/knustu/-/blob/3340f8ab0f19b120c9b83504e17875fc21b648de/data/gunwi/fire/읽어주세요.md"
+    },
+    "data/gunwi/fire/자료목록.csv": {
+      "source_ids": [
+        "DATAGOKR_15033759",
+        "DATAGOKR_15048243",
+        "DATAGOKR_15065056",
+        "DATAGOKR_15113282",
+        "DATAGOKR_15133820"
+      ],
+      "transformation": "이관 당시 안내·출처 카드·파생 자료 또는 공유 ZIP. 원출처는 source_ids로 data/sources.json에서 조회.",
+      "imported_path": "data/gunwi/fire/자료목록.csv",
+      "sha256": "0ed8998a68cabc053b3e6eaadab5ffbff3d631001bd23e151de978ddc0816ef2",
+      "bytes": 926,
+      "received_from": "https://github.com/knustu/-/blob/3340f8ab0f19b120c9b83504e17875fc21b648de/data/gunwi/fire/자료목록.csv"
+    },
+    "data/gunwi/living/읽어주세요.md": {
+      "source_ids": [
+        "DATAGOKR_GUNWI_BICYCLE",
+        "DATAGOKR_GUNWI_SENIOR",
+        "DATAGOKR_GUNWI_TOURISM",
+        "DATAGOKR_GUNWI_WATER_SUPPLY_RATE",
+        "DATAGOKR_PARK",
+        "DATAGOKR_SECURITY_LAMP",
+        "GUNWI_TOILETS_2025"
+      ],
+      "transformation": "이관 당시 안내·출처 카드·파생 자료 또는 공유 ZIP. 원출처는 source_ids로 data/sources.json에서 조회.",
+      "imported_path": "data/gunwi/living/읽어주세요.md",
+      "sha256": "e7efdbc2da1ad86967a084580c0ca01f2867118ccb21a5db7e1952a94b14ffa0",
+      "bytes": 2974,
+      "received_from": "https://github.com/knustu/-/blob/3340f8ab0f19b120c9b83504e17875fc21b648de/data/gunwi/living/읽어주세요.md"
+    },
+    "data/gunwi/living/자료목록.csv": {
+      "source_ids": [
+        "DATAGOKR_GUNWI_BICYCLE",
+        "DATAGOKR_GUNWI_SENIOR",
+        "DATAGOKR_GUNWI_TOURISM",
+        "DATAGOKR_GUNWI_WATER_SUPPLY_RATE",
+        "DATAGOKR_PARK",
+        "DATAGOKR_SECURITY_LAMP",
+        "GUNWI_TOILETS_2025"
+      ],
+      "transformation": "이관 당시 안내·출처 카드·파생 자료 또는 공유 ZIP. 원출처는 source_ids로 data/sources.json에서 조회.",
+      "imported_path": "data/gunwi/living/자료목록.csv",
+      "sha256": "6b4d8fa4b9a72f7e36c66a057f084523acd669016c820f578a9765c25542eefd",
+      "bytes": 3179,
+      "received_from": "https://github.com/knustu/-/blob/3340f8ab0f19b120c9b83504e17875fc21b648de/data/gunwi/living/자료목록.csv"
+    },
+    "data/gunwi/locations/README.md": {
+      "source_ids": [
+        "DATAGOKR_15048243",
+        "DATAGOKR_15065056",
+        "DATAGOKR_15133820",
+        "DATAGOKR_GUNWI_BICYCLE",
+        "DATAGOKR_GUNWI_SENIOR",
+        "DATAGOKR_GUNWI_TOURISM",
+        "DATAGOKR_PARK",
+        "DATAGOKR_SECURITY_LAMP",
+        "GUNWI_TOILETS_2025"
+      ],
+      "transformation": "이관 당시 안내·출처 카드·파생 자료 또는 공유 ZIP. 원출처는 source_ids로 data/sources.json에서 조회.",
+      "imported_path": "data/gunwi/locations/README.md",
+      "sha256": "65bc4b0d57a596a07457c6c34b797dff6f4bf65b4af7dc46330d7afa655cdf59",
+      "bytes": 2291,
+      "received_from": "https://github.com/knustu/-/blob/3340f8ab0f19b120c9b83504e17875fc21b648de/data/gunwi/locations/README.md"
+    },
+    "data/gunwi/locations/bicycle_endpoints.geojson": {
+      "source_ids": [
+        "DATAGOKR_15048243",
+        "DATAGOKR_15065056",
+        "DATAGOKR_15133820",
+        "DATAGOKR_GUNWI_BICYCLE",
+        "DATAGOKR_GUNWI_SENIOR",
+        "DATAGOKR_GUNWI_TOURISM",
+        "DATAGOKR_PARK",
+        "DATAGOKR_SECURITY_LAMP",
+        "GUNWI_TOILETS_2025"
+      ],
+      "transformation": "이관 당시 안내·출처 카드·파생 자료 또는 공유 ZIP. 원출처는 source_ids로 data/sources.json에서 조회.",
+      "imported_path": "data/gunwi/locations/bicycle_endpoints.geojson",
+      "sha256": "1fc4c8743c86b7d28a358c39895d7ea8243690d6a88ffaa453ba903a55bce3a6",
+      "bytes": 4420,
+      "received_from": "https://github.com/knustu/-/blob/3340f8ab0f19b120c9b83504e17875fc21b648de/data/gunwi/locations/bicycle_endpoints.geojson"
+    },
+    "data/gunwi/locations/facilities.geojson": {
+      "source_ids": [
+        "DATAGOKR_15048243",
+        "DATAGOKR_15065056",
+        "DATAGOKR_15133820",
+        "DATAGOKR_GUNWI_BICYCLE",
+        "DATAGOKR_GUNWI_SENIOR",
+        "DATAGOKR_GUNWI_TOURISM",
+        "DATAGOKR_PARK",
+        "DATAGOKR_SECURITY_LAMP",
+        "GUNWI_TOILETS_2025"
+      ],
+      "transformation": "이관 당시 안내·출처 카드·파생 자료 또는 공유 ZIP. 원출처는 source_ids로 data/sources.json에서 조회.",
+      "imported_path": "data/gunwi/locations/facilities.geojson",
+      "sha256": "5efb4517dab438318c6fc5a5682c4ad23791c6492da75961996134ec013243f5",
+      "bytes": 321867,
+      "received_from": "https://github.com/knustu/-/blob/3340f8ab0f19b120c9b83504e17875fc21b648de/data/gunwi/locations/facilities.geojson"
+    },
+    "data/gunwi/locations/facility_locations.csv": {
+      "source_ids": [
+        "DATAGOKR_15048243",
+        "DATAGOKR_15065056",
+        "DATAGOKR_15133820",
+        "DATAGOKR_GUNWI_BICYCLE",
+        "DATAGOKR_GUNWI_SENIOR",
+        "DATAGOKR_GUNWI_TOURISM",
+        "DATAGOKR_PARK",
+        "DATAGOKR_SECURITY_LAMP",
+        "GUNWI_TOILETS_2025"
+      ],
+      "transformation": "이관 당시 안내·출처 카드·파생 자료 또는 공유 ZIP. 원출처는 source_ids로 data/sources.json에서 조회.",
+      "imported_path": "data/gunwi/locations/facility_locations.csv",
+      "sha256": "125ec6ade8e6a97c3a6d045e4d7e6cbcb37eeea4aded3d088479607ce81b48e1",
+      "bytes": 564863,
+      "received_from": "https://github.com/knustu/-/blob/3340f8ab0f19b120c9b83504e17875fc21b648de/data/gunwi/locations/facility_locations.csv"
+    },
+    "data/gunwi/locations/quality_report.json": {
+      "source_ids": [
+        "DATAGOKR_15048243",
+        "DATAGOKR_15065056",
+        "DATAGOKR_15133820",
+        "DATAGOKR_GUNWI_BICYCLE",
+        "DATAGOKR_GUNWI_SENIOR",
+        "DATAGOKR_GUNWI_TOURISM",
+        "DATAGOKR_PARK",
+        "DATAGOKR_SECURITY_LAMP",
+        "GUNWI_TOILETS_2025"
+      ],
+      "transformation": "이관 당시 안내·출처 카드·파생 자료 또는 공유 ZIP. 원출처는 source_ids로 data/sources.json에서 조회.",
+      "imported_path": "data/gunwi/locations/quality_report.json",
+      "sha256": "c8cf0b86d497040c87467236cc0ed97119f13870ce95074c817619f36ee3d21f",
+      "bytes": 1379,
+      "received_from": "https://github.com/knustu/-/blob/3340f8ab0f19b120c9b83504e17875fc21b648de/data/gunwi/locations/quality_report.json"
+    },
+    "data/gunwi/locations/sources.csv": {
+      "source_ids": [
+        "DATAGOKR_15048243",
+        "DATAGOKR_15065056",
+        "DATAGOKR_15133820",
+        "DATAGOKR_GUNWI_BICYCLE",
+        "DATAGOKR_GUNWI_SENIOR",
+        "DATAGOKR_GUNWI_TOURISM",
+        "DATAGOKR_PARK",
+        "DATAGOKR_SECURITY_LAMP",
+        "GUNWI_TOILETS_2025"
+      ],
+      "transformation": "이관 당시 안내·출처 카드·파생 자료 또는 공유 ZIP. 원출처는 source_ids로 data/sources.json에서 조회.",
+      "imported_path": "data/gunwi/locations/sources.csv",
+      "sha256": "9f126c805edca65e8931122f343b224650e5a33d87f55b8d63095c6515f63bdd",
+      "bytes": 1645,
+      "received_from": "https://github.com/knustu/-/blob/3340f8ab0f19b120c9b83504e17875fc21b648de/data/gunwi/locations/sources.csv"
+    },
+    "data/gunwi/locations/sources.json": {
+      "source_ids": [
+        "DATAGOKR_15048243",
+        "DATAGOKR_15065056",
+        "DATAGOKR_15133820",
+        "DATAGOKR_GUNWI_BICYCLE",
+        "DATAGOKR_GUNWI_SENIOR",
+        "DATAGOKR_GUNWI_TOURISM",
+        "DATAGOKR_PARK",
+        "DATAGOKR_SECURITY_LAMP",
+        "GUNWI_TOILETS_2025"
+      ],
+      "transformation": "이관 당시 안내·출처 카드·파생 자료 또는 공유 ZIP. 원출처는 source_ids로 data/sources.json에서 조회.",
+      "imported_path": "data/gunwi/locations/sources.json",
+      "sha256": "62fa8df9fb5704c035c3e9acbecc5c7a5d8f1122f994d00372c4b44c00340ae9",
+      "bytes": 3561,
+      "received_from": "https://github.com/knustu/-/blob/3340f8ab0f19b120c9b83504e17875fc21b648de/data/gunwi/locations/sources.json"
+    },
+    "data/gunwi/roads/sources.json": {
+      "source_ids": [
+        "DATAGOKR_15049952",
+        "DATAGOKR_15049953"
+      ],
+      "transformation": "이관 당시 안내·출처 카드·파생 자료 또는 공유 ZIP. 원출처는 source_ids로 data/sources.json에서 조회.",
+      "imported_path": "data/gunwi/roads/sources.json",
+      "sha256": "cde0291844445581e954dfa02a6e4f151b311665098ab0f9fbe40067b43e4244",
+      "bytes": 2333,
+      "received_from": "https://github.com/knustu/-/blob/3340f8ab0f19b120c9b83504e17875fc21b648de/data/gunwi/roads/sources.json"
+    },
+    "data/gunwi/roads/읽어주세요.md": {
+      "source_ids": [
+        "DATAGOKR_15049952",
+        "DATAGOKR_15049953"
+      ],
+      "transformation": "이관 당시 안내·출처 카드·파생 자료 또는 공유 ZIP. 원출처는 source_ids로 data/sources.json에서 조회.",
+      "imported_path": "data/gunwi/roads/읽어주세요.md",
+      "sha256": "21ccf16456c3d55da68cc703e2619e80144f3641c61c0769c4bb9385fdf7c215",
+      "bytes": 1464,
+      "received_from": "https://github.com/knustu/-/blob/3340f8ab0f19b120c9b83504e17875fc21b648de/data/gunwi/roads/읽어주세요.md"
+    },
+    "downloads/군위군_공개데이터.zip": {
+      "source_ids": [
+        "DATAGOKR_GUNWI_BICYCLE",
+        "DATAGOKR_GUNWI_SENIOR",
+        "DATAGOKR_GUNWI_TOURISM",
+        "DATAGOKR_GUNWI_WATER_SUPPLY_RATE",
+        "DATAGOKR_PARK",
+        "DATAGOKR_SECURITY_LAMP",
+        "GUNWI_TOILETS_2025"
+      ],
+      "transformation": "이관 당시 안내·출처 카드·파생 자료 또는 공유 ZIP. 원출처는 source_ids로 data/sources.json에서 조회.",
+      "imported_path": "downloads/군위군_공개데이터.zip",
+      "sha256": "49265b30cee3c57fd1704d647d436242af0c62641f2d4ccfa7e6f83743bedb1f",
+      "bytes": 42901,
+      "received_from": "https://github.com/knustu/-/blob/3340f8ab0f19b120c9b83504e17875fc21b648de/downloads/군위군_공개데이터.zip"
+    },
+    "downloads/군위군_소방시설_2025이후.zip": {
+      "source_ids": [
+        "DATAGOKR_15033759",
+        "DATAGOKR_15048243",
+        "DATAGOKR_15065056",
+        "DATAGOKR_15113282",
+        "DATAGOKR_15133820"
+      ],
+      "transformation": "이관 당시 안내·출처 카드·파생 자료 또는 공유 ZIP. 원출처는 source_ids로 data/sources.json에서 조회.",
+      "imported_path": "downloads/군위군_소방시설_2025이후.zip",
+      "sha256": "4762dffe00aed6ad9c8e06538b924de82d92b8926e89872883fd8205da8ad786",
+      "bytes": 445230,
+      "received_from": "https://github.com/knustu/-/blob/3340f8ab0f19b120c9b83504e17875fc21b648de/downloads/군위군_소방시설_2025이후.zip"
+    },
+    "downloads/군위군_시설위치_2025이후.zip": {
+      "source_ids": [
+        "DATAGOKR_15033759",
+        "DATAGOKR_15048243",
+        "DATAGOKR_15049952",
+        "DATAGOKR_15049953",
+        "DATAGOKR_15065056",
+        "DATAGOKR_15113282",
+        "DATAGOKR_15133820",
+        "DATAGOKR_15164540",
+        "DATAGOKR_3070147",
+        "DATAGOKR_GUNWI_BICYCLE",
+        "DATAGOKR_GUNWI_SENIOR",
+        "DATAGOKR_GUNWI_TOURISM",
+        "DATAGOKR_GUNWI_WATER_SUPPLY_RATE",
+        "DATAGOKR_PARK",
+        "DATAGOKR_SECURITY_LAMP",
+        "GUNWI_TOILETS_2025"
+      ],
+      "transformation": "이관 당시 안내·출처 카드·파생 자료 또는 공유 ZIP. 원출처는 source_ids로 data/sources.json에서 조회.",
+      "imported_path": "downloads/군위군_시설위치_2025이후.zip",
+      "sha256": "e6e7a81bd34d43a70fbb58921326a58cc8cc5cc58f6b754f7c74542b20d4d6c8",
+      "bytes": 812151,
+      "received_from": "https://github.com/knustu/-/blob/3340f8ab0f19b120c9b83504e17875fc21b648de/downloads/군위군_시설위치_2025이후.zip"
+    }
+  }
+}

@@ -14,6 +14,8 @@ from collections import Counter
 from datetime import date
 from pathlib import Path
 
+from prepare_facilities import prepare_additional_facilities
+
 ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / "data" / "raw"
 DERIVED = ROOT / "data" / "derived"
@@ -240,6 +242,7 @@ def main() -> None:
     write("parks.json", {"column_labels": park_labels, "parks": parks})
     write("village_history.json", history)
     write("eupmyeon.geojson", boundary)
+    prepare_additional_facilities(ROOT)
 
     print(f"\n  인구 {len(population)}행 / 공원 {len(parks)}건 / "
           f"행정리 {history['row_count']}행 "

@@ -1,0 +1,27 @@
+{
+  "source_id": "GUNWI_MEDICINE_BINS",
+  "name": "군위군 폐의약품수거함 표준데이터",
+  "provider": "대구광역시 군위군",
+  "url": "https://www.data.go.kr/data/15129445/standard.do",
+  "reference_date": "2025-12-19",
+  "retrieved_at": "2026-10-14",
+  "retrieved_by": "Codex",
+  "license": "이용허락범위 제한 없음",
+  "provenance": "verified",
+  "notes": "25개 수거함, 전 행 좌표. 18개 공공 보건시설 내 수거함, 7개 약국 내 수거함. 보건시설 위치는 간접 근거로만 사용한다.",
+  "files": {
+    "medicine_0.csv": {
+      "sha256": "58f4d5c2992ba589d5dd94af7c084fa64d8c96920da09817ac02068fe66177f2",
+      "bytes": 4316
+    },
+    "detail_medicine_0.html": {
+      "sha256": "44ee3047005a84438ddb9d051bc356f6b37e18da6a7883e926285be76fda9991",
+      "bytes": 7572
+    },
+    "detail_medicine_0.json": {
+      "sha256": "71f991a91e7a0ff7afb280375ceff4cd5d7dd03c14ef444db439a4c33a0c5aaf",
+      "bytes": 1055
+    }
+  },
+  "encoding": "utf-8-sig"
+}

@@ -1,0 +1,83 @@
+[
+  {
+    "source_id": "park",
+    "source_file": "living/15012890_gunwi.csv",
+    "url": "https://www.data.go.kr/data/15012890/standard.do",
+    "reference_date": "2026-03-05",
+    "reference_date_precision": "day",
+    "note": "",
+    "sha256": "3a5e3e6aa5b82df85701a9fe264acaeac7e74db9d0d69c920124f4bd62e30084"
+  },
+  {
+    "source_id": "tourism",
+    "source_file": "living/15021141_gunwi.csv",
+    "url": "https://www.data.go.kr/data/15021141/standard.do",
+    "reference_date": "2026-08-18",
+    "reference_date_precision": "day",
+    "note": "관광지 분류. 공원·정원을 포함하며 도시공원 전수목록이 아님.",
+    "sha256": "3d287e4828803091b95ebc34a3d74d41dee949c5368da1a88cce497ac6d775f4"
+  },
+  {
+    "source_id": "toilet",
+    "source_file": "living/군위군_공중화장실현황_2025.csv",
+    "url": "https://www.gunwi.go.kr/board_download.do?file_uid=166929",
+    "reference_date": "2025",
+    "reference_date_precision": "year",
+    "note": "파일명 기준 2025년 현황. 게시일 2025-07-08. 정확한 조사 기준일 미기재, 원본에 좌표 없음.",
+    "sha256": "662602b6429f0dfa473ea10c2e5508c1ad9bc304b372befc72a0b4eaf4b8e901"
+  },
+  {
+    "source_id": "security_lamp",
+    "source_file": "living/15017320_gunwi.csv",
+    "url": "https://www.data.go.kr/data/15017320/standard.do",
+    "reference_date": "2026-04-03",
+    "reference_date_precision": "day",
+    "note": "보안등 분류. 일반 가로등 전수자료가 아님. 좌표·설치연도·설치형태는 빈 값.",
+    "sha256": "a2ce39a9501523a492d14125e7135abc3cd9bb81b58d77e5c2d884699f8ff5f7"
+  },
+  {
+    "source_id": "senior",
+    "source_file": "living/15114136_gunwi.csv",
+    "url": "https://www.data.go.kr/data/15114136/standard.do",
+    "reference_date": "2025-12-19",
+    "reference_date_precision": "day",
+    "note": "",
+    "sha256": "bbcf529fe02d1681ccaf68672d497699de3ab210168985c558683a7598a21606"
+  },
+  {
+    "source_id": "fire_water",
+    "source_file": "fire/군위군_소방용수시설.csv",
+    "url": "https://www.data.go.kr/data/15133820/fileData.do",
+    "reference_date": "2026-08-26",
+    "reference_date_precision": "day",
+    "note": "과거 주소·관할 표기가 남아 있음. 개별 시설의 최근 점검일 미확인. 철거 1행 포함.",
+    "sha256": "1ab5b5c326f8ec4d05b56a203e786ca82d3bc28a2b2f2eb603aaa6bec1e0ce05"
+  },
+  {
+    "source_id": "fire_center",
+    "source_file": "fire/군위군_119안전센터.csv",
+    "url": "https://www.data.go.kr/data/15065056/fileData.do",
+    "reference_date": "2026-07-01",
+    "reference_date_precision": "day",
+    "note": "",
+    "sha256": "3433b7b827992e339226aff2b34568dcc153feff21c174307b429f802393ebfa"
+  },
+  {
+    "source_id": "fire_station",
+    "source_file": "fire/군위군_관할소방서.csv",
+    "url": "https://www.data.go.kr/data/15048243/fileData.do",
+    "reference_date": "2026-07-01",
+    "reference_date_precision": "day",
+    "note": "군위군 관할 대구 강북소방서. 군위군 밖에 위치.",
+    "sha256": "aba7ea32e021338921370761f561da58b76a924fe8eee80e866a730d3d50ae40"
+  },
+  {
+    "source_id": "bicycle",
+    "source_file": "living/15100063_gunwi.csv",
+    "url": "https://www.data.go.kr/data/15100063/standard.do",
+    "reference_date": "2026-03-05",
+    "reference_date_precision": "day",
+    "note": "기종점 좌표만 제공. 실제 도로 선형 없음. 일부 도로명·지번주소 읍면 표기 불일치 원문 유지.",
+    "sha256": "8ec85f247cc8febc889c1fb842a17b942188c6bb27130e05ab37e1f61dd481ac"
+  }
+]

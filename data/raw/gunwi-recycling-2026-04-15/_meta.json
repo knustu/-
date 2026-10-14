@@ -1,0 +1,27 @@
+{
+  "source_id": "GUNWI_RECYCLING",
+  "name": "군위군 재활용센터 표준데이터",
+  "provider": "대구광역시 군위군",
+  "url": "https://www.data.go.kr/data/15021108/standard.do",
+  "reference_date": "2026-04-15",
+  "retrieved_at": "2026-10-14",
+  "retrieved_by": "Codex",
+  "license": "이용허락범위 제한 없음",
+  "provenance": "verified",
+  "notes": "환경관리센터 1곳, 좌표 제공. 재활용 분리수거함 전수 자료가 아니다.",
+  "files": {
+    "recycling.csv": {
+      "sha256": "23300337f5d2fdd602a9c5fb33d6991efbe388e25bf14450d5461e444f92758d",
+      "bytes": 857
+    },
+    "detail_recycling.html": {
+      "sha256": "42c6cc7a248fd0457bc18201544adcbf3f5a6c4f68c9f7d88f71d9a966483edb",
+      "bytes": 7593
+    },
+    "detail_recycling.json": {
+      "sha256": "2ea9d7b2ae27573c712aec9ccd444509e17e163eb3f7dc5576ab880c2a5950e5",
+      "bytes": 222
+    }
+  },
+  "encoding": "utf-8-sig"
+}

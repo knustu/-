@@ -1,0 +1,105 @@
+{
+  "cutoff": "2025-01-01",
+  "observation_count": 259,
+  "point_count": 251,
+  "address_only_count": 8,
+  "proxy_location_count": 18,
+  "coordinate_review": [
+    {
+      "id": "GUNWI_CCTV:639:4",
+      "source_id": "GUNWI_CCTV",
+      "source_record_number": 639,
+      "reported_latitude": "36.851755",
+      "reported_longitude": "128.6946508"
+    }
+  ],
+  "categories": [
+    {
+      "name": "교통시설",
+      "observations": 60,
+      "points": 60,
+      "source_ids": [
+        "DATAGOKR_GUNWI_PARKING"
+      ]
+    },
+    {
+      "name": "폐기물 수거시설",
+      "observations": 26,
+      "points": 26,
+      "source_ids": [
+        "GUNWI_MEDICINE_BINS",
+        "GUNWI_RECYCLING"
+      ]
+    },
+    {
+      "name": "배수시설",
+      "observations": 27,
+      "points": 27,
+      "source_ids": [
+        "DATAGOKR_GUNWI_SMALL_FACILITY_RISK"
+      ]
+    },
+    {
+      "name": "안전시설",
+      "observations": 115,
+      "points": 114,
+      "source_ids": [
+        "GUNWI_CCTV"
+      ]
+    },
+    {
+      "name": "체육·문화시설",
+      "observations": 5,
+      "points": 3,
+      "source_ids": [
+        "GUNWI_EDUCATION_LIBRARY",
+        "GUNWI_LIBRARIES",
+        "GUNWI_OPEN_FACILITIES"
+      ]
+    },
+    {
+      "name": "쉼터·놀이시설",
+      "observations": 3,
+      "points": 3,
+      "source_ids": [
+        "DATAGOKR_PARK"
+      ]
+    },
+    {
+      "name": "재난대피시설",
+      "observations": 5,
+      "points": 0,
+      "source_ids": [
+        "GUNWI_CIVIL_SHELTERS"
+      ]
+    },
+    {
+      "name": "공공보건시설",
+      "observations": 18,
+      "points": 18,
+      "source_ids": [
+        "GUNWI_MEDICINE_BINS"
+      ]
+    }
+  ],
+  "excluded": {
+    "민영 주차장": 1,
+    "위험지정 해제 세천": 1,
+    "세천 이외 소규모시설": 11,
+    "2025년 이전 기준일 CCTV": 552
+  },
+  "unavailable_latest_registers": [
+    "신호등·횡단보도 전수 위치",
+    "재활용 분리수거함 전수 위치",
+    "빗물받이·맨홀 전수 위치",
+    "AED·별도 안전비상벨 위치",
+    "무더위쉼터 전수 위치",
+    "지진옥외대피소 위치",
+    "공공보건시설 운영대장"
+  ],
+  "limitations": [
+    "시설 수 합계 아님; 같은 장소의 별도 기능과 분야 간 재사용 포함",
+    "경계 출처 미확인 문제를 해결한 자료가 아님; 읍면별 배정·밀도 미생성",
+    "민원 건별 위치와 보수 이력 부족; 시설관리 필요도 및 종합 우선순위 미산출"
+  ]
+}

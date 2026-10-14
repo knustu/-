@@ -1,0 +1,18 @@
+{
+  "source_id": "GUNWI_GIT_IMPORT",
+  "name": "기존 군위군 시설자료 Git 이관 스냅샷",
+  "provider": "knustu/- 수집 저장소 (공식 출처는 개별 항목 참조)",
+  "url": "https://github.com/knustu/-/tree/3340f8ab0f19b120c9b83504e17875fc21b648de",
+  "reference_date": "2025 / 2026 (개별 출처 기준일 참조)",
+  "retrieved_at": "2026-10-14",
+  "retrieved_by": "Codex",
+  "license": "개별 공식 출처 이용조건 적용; 이관 묶음의 일괄 이용허락 아님",
+  "provenance": "verified_import",
+  "notes": "Git 커밋에서 받은 파일을 그대로 동결한 ZIP. 이미 UTF-8 변환·군위 추출·GeoJSON 생성된 파일을 포함하므로 정부 배포 원본 바이트와 동일하다고 주장하지 않는다. _meta.json의 파일별 원출처는 data/gunwi/_meta.json에서 연결한다. 이전 자료의 출처카드는 이관 당시 기록이며, 최신 레지스트리는 data/sources.json이다.",
+  "files": {
+    "knustu-facility-collection-3340f8a.zip": {
+      "sha256": "a7460663f11978a95bea98f293e517b6059b9d1b792142b0ab8cba2fb8860e9f",
+      "bytes": 2111836
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "source_id": "GUNWI_OPEN_FACILITIES",
+  "name": "군위군 공공개방시설 표준데이터",
+  "provider": "대구광역시 군위군",
+  "url": "https://www.data.go.kr/data/15013117/standard.do",
+  "reference_date": "2026-08-19",
+  "retrieved_at": "2026-10-14",
+  "retrieved_by": "Codex",
+  "license": "이용허락범위 제한 없음",
+  "provenance": "verified",
+  "notes": "공연장·수영장 2개 시설 단위. 같은 주소·좌표이며 독립 부지 수로 합산하면 안 된다.",
+  "files": {
+    "open_facility.csv": {
+      "sha256": "061a3251972fc39773de2a08ac82e492294e8df6cd9b51c09a57453b82db732e",
+      "bytes": 1381
+    },
+    "detail_open_facility.html": {
+      "sha256": "46056206c9e07a2eb3656dc93431effc3fe11c9f5ed73ef38b694467a70d9f16",
+      "bytes": 7603
+    },
+    "detail_open_facility.json": {
+      "sha256": "5dbced303009e267b8dcaba34ec6977cc84db0e6e852cc1d06155553fcac650f",
+      "bytes": 222
+    }
+  },
+  "encoding": "utf-8-sig"
+}

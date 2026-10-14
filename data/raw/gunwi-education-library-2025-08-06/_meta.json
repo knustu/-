@@ -1,0 +1,27 @@
+{
+  "source_id": "GUNWI_EDUCATION_LIBRARY",
+  "name": "삼국유사군위도서관 표준데이터",
+  "provider": "대구광역시교육청",
+  "url": "https://www.data.go.kr/data/15013109/standard.do",
+  "reference_date": "2025-08-06",
+  "retrieved_at": "2026-10-14",
+  "retrieved_by": "Codex",
+  "license": "이용허락범위 제한 없음",
+  "provenance": "verified",
+  "notes": "공공도서관 1곳, 좌표·운영정보 제공.",
+  "files": {
+    "library_1.csv": {
+      "sha256": "a020f88eeb3935427fc71a73721236d9a25063cb1860b84ebc75941643e37f7d",
+      "bytes": 898
+    },
+    "detail_library_1.html": {
+      "sha256": "46369e910c3481f6331979a935b80f2feeda95c4936dad556543a30a206f83e3",
+      "bytes": 7632
+    },
+    "detail_library_1.json": {
+      "sha256": "170a06253837f9e009ab38324c89af5479c1e0faa90772d9b80e56a6be53d187",
+      "bytes": 1126
+    }
+  },
+  "encoding": "utf-8-sig"
+}

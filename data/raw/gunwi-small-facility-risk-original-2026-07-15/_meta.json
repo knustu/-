@@ -1,0 +1,19 @@
+{
+  "source_id": "DATAGOKR_GUNWI_SMALL_FACILITY_RISK",
+  "name": "전국소규모공공시설위험지정정보 표준데이터 중 군위군",
+  "provider": "대구광역시 군위군 (공공데이터포털 표준데이터)",
+  "url": "https://www.data.go.kr/data/15021104/standard.do",
+  "reference_date": "2026-07-15",
+  "retrieved_at": "2026-10-14",
+  "retrieved_by": "Codex",
+  "license": "이용허락범위 제한 없음",
+  "provenance": "verified",
+  "notes": "기존 Git 파일에서 CRLF가 LF로 바뀌어 출처 카드 해시와 불일치했다. 기존 동결 파일은 수정하지 않고 공식 파일을 재다운로드. 이 파일의 바이트 해시는 기존 원출처 카드의 공식 다운로드 해시와 정확히 일치. https://www.data.go.kr/cmm/cmm/fileDownload.do?atchFileId=FILE_000000003676152&fileDetailSn=1&insertDataPrcus=N",
+  "files": {
+    "small_facility_original.csv": {
+      "sha256": "1b5aa7e47512f4336967a60dcd4fbc4bc7bb81b0db3947f599ff4179c32bdcbc",
+      "bytes": 8851
+    }
+  },
+  "encoding": "utf-8-sig"
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "id": "15049952",
+    "url": "https://www.data.go.kr/data/15049952/fileData.do",
+    "name": "대구광역시_도로 표준링크 현황_20250115",
+    "modified": "2025-06-10",
+    "time": "",
+    "format": "CSV",
+    "rows": "5474",
+    "description": "대구광역시 표준링크 자료는 국토교통부의 표준 노드-링크 체계를 기반으로 도로교통 정보를 체계적으로 관리하고 제공하기 위해 설정된 도로 구간 단위입니다. 각 표준링크는 도로의 일정 구간을 의미하며, 해당 자료에는 표준링크ID, 출도착표준노드, 지도상거리, 도로등급코드, 도로유형코드, 도로번호, 도로명, 적용일자 값을 제공합니다. 이 데이터는 교통소통, 통제, 돌발 등 다양한 교통 정보와 연계하여 도로망 기반의 분석, 도로 단위 혼잡도 측정, 교통 흐름 최적화 등 교통관리 및 도시계획 수립에 중요한 기초 자료로 활용할 수 있습니다.",
+    "limit": "",
+    "contentUrl": "https://www.data.go.kr/cmm/cmm/fileDownload.do?atchFileId=FILE_000000003155791&fileDetailSn=1&insertDataPrcus=N",
+    "snapshot_date": "2025-01-15"
+  },
+  {
+    "id": "15049953",
+    "url": "https://www.data.go.kr/data/15049953/fileData.do",
+    "name": "대구광역시_도로 표준노드 현황_20250115",
+    "modified": "2025-06-09",
+    "time": "",
+    "format": "CSV",
+    "rows": "10845",
+    "description": "대구광역시 표준노드 자료는 국토교통부의 표준-노드 링크를 기반으로 도로교통 정보를 체계적으로 관리하고 제공하기 위한 자료로 도로망 상에서 교차로, 분기점, 램프 접속부 등 도로의 연결지점의 위치를 정의한 자료입니다. 해당 자료는 표준노드 ID, 노드명, 노드유형코드, 회전제한여부, 좌표값, 적용일자를 제공합니다. 이 데이터는 대구광역시 도로 표준링크 자료와 연계되어 도로 구간 간 연결 관계 파악, 교통 시뮬레이션 모델 구축, 교차로 흐름 분석, 교통 최적화 정책 수립 등에 기초 자료로 활용할 수 있습니다.",
+    "limit": "",
+    "contentUrl": "https://www.data.go.kr/cmm/cmm/fileDownload.do?atchFileId=FILE_000000003148529&fileDetailSn=1&insertDataPrcus=N",
+    "snapshot_date": "2025-01-15"
+  }
+]

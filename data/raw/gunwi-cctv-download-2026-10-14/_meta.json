@@ -1,0 +1,23 @@
+{
+  "source_id": "GUNWI_CCTV",
+  "name": "군위군 CCTV 위치 (2025년 이후 기준일 행)",
+  "provider": "군위군 / 행정안전부 LOCALDATA",
+  "url": "https://file.localdata.go.kr/file/cctv_info/info",
+  "reference_date": "2021-10-20 / 2024-07-25 / 2026-05-14 (원본 혼합; 정제는 2026-05-14)",
+  "retrieved_at": "2026-10-14",
+  "retrieved_by": "Codex",
+  "license": "공공데이터포털 CCTV 표준데이터 이용조건 확인 필요",
+  "provenance": "verified",
+  "notes": "공식 군위군(orgCode=5141000) 선택 원본 667행 중 기준일2026-05-14인115행만 정제. 나머지2021년106행·2024년446행 제외. 갱신시점2026을 자료기준일로 사용하지 않는다. 원본은 다운로드한 CP949 바이트 그대로 동결.",
+  "files": {
+    "cctv_download.bin": {
+      "sha256": "92a7dd2b06b58abc3a17b21317b72ba7e256463f512ed13197029eebd3287ac2",
+      "bytes": 135896
+    },
+    "local_cctv_correct.html": {
+      "sha256": "34e4937f8fec21a4ed49cb93c731adc496e4207893fff2c632664d928f929268",
+      "bytes": 115585
+    }
+  },
+  "encoding": "cp949"
+}

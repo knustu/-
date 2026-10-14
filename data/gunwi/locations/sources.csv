@@ -1,0 +1,10 @@
+﻿source_id,source_file,url,reference_date,reference_date_precision,note
+park,living/15012890_gunwi.csv,https://www.data.go.kr/data/15012890/standard.do,2026-03-05,day,
+tourism,living/15021141_gunwi.csv,https://www.data.go.kr/data/15021141/standard.do,2026-08-18,day,관광지 분류. 공원·정원을 포함하며 도시공원 전수목록이 아님.
+toilet,living/군위군_공중화장실현황_2025.csv,https://www.gunwi.go.kr/board_download.do?file_uid=166929,2025,year,"파일명 기준 2025년 현황. 게시일 2025-07-08. 정확한 조사 기준일 미기재, 원본에 좌표 없음."
+security_lamp,living/15017320_gunwi.csv,https://www.data.go.kr/data/15017320/standard.do,2026-04-03,day,보안등 분류. 일반 가로등 전수자료가 아님. 좌표·설치연도·설치형태는 빈 값.
+senior,living/15114136_gunwi.csv,https://www.data.go.kr/data/15114136/standard.do,2025-12-19,day,
+fire_water,fire/군위군_소방용수시설.csv,https://www.data.go.kr/data/15133820/fileData.do,2026-08-26,day,과거 주소·관할 표기가 남아 있음. 개별 시설의 최근 점검일 미확인. 철거 1행 포함.
+fire_center,fire/군위군_119안전센터.csv,https://www.data.go.kr/data/15065056/fileData.do,2026-07-01,day,
+fire_station,fire/군위군_관할소방서.csv,https://www.data.go.kr/data/15048243/fileData.do,2026-07-01,day,군위군 관할 대구 강북소방서. 군위군 밖에 위치.
+bicycle,living/15100063_gunwi.csv,https://www.data.go.kr/data/15100063/standard.do,2026-03-05,day,기종점 좌표만 제공. 실제 도로 선형 없음. 일부 도로명·지번주소 읍면 표기 불일치 원문 유지.

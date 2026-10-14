@@ -1,0 +1,138 @@
+{
+  "type": "FeatureCollection",
+  "name": "군위군_자전거도로_기종점",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "bicycle:1:기점",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.5679076039,
+          36.2511148435
+        ]
+      },
+      "properties": {
+        "name": "대로 1-2R",
+        "endpoint": "기점",
+        "address": "대구광역시 군위군 군위읍 군청로 328",
+        "parcel_address": "대구광역시 군위군 군위읍 정리 492-3",
+        "reference_date": "2026-03-05",
+        "source_url": "https://www.data.go.kr/data/15100063/standard.do",
+        "source_file": "living/15100063_gunwi.csv",
+        "source_row": 1,
+        "note": "도로 전체의 선형 또는 중간점이 아님."
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bicycle:1:종점",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.5675631545,
+          36.2262547142
+        ]
+      },
+      "properties": {
+        "name": "대로 1-2R",
+        "endpoint": "종점",
+        "address": "대구광역시 군위군 군위읍 군청로 23",
+        "parcel_address": "대구광역시 군위군 군위읍 동부리 832",
+        "reference_date": "2026-03-05",
+        "source_url": "https://www.data.go.kr/data/15100063/standard.do",
+        "source_file": "living/15100063_gunwi.csv",
+        "source_row": 1,
+        "note": "도로 전체의 선형 또는 중간점이 아님."
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bicycle:2:기점",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.5685686521,
+          36.2299295429
+        ]
+      },
+      "properties": {
+        "name": "대로 1-2L",
+        "endpoint": "기점",
+        "address": "대구광역시 군위군 군위읍 중앙길 12",
+        "parcel_address": "대구광역시 군위군 군위읍 동부리 670-8",
+        "reference_date": "2026-03-05",
+        "source_url": "https://www.data.go.kr/data/15100063/standard.do",
+        "source_file": "living/15100063_gunwi.csv",
+        "source_row": 2,
+        "note": "도로 전체의 선형 또는 중간점이 아님."
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bicycle:2:종점",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.5679076039,
+          36.2511148435
+        ]
+      },
+      "properties": {
+        "name": "대로 1-2L",
+        "endpoint": "종점",
+        "address": "대구광역시 군위군 군위읍 군청로 328",
+        "parcel_address": "대구광역시 군위군 군위읍 정리 492-3",
+        "reference_date": "2026-03-05",
+        "source_url": "https://www.data.go.kr/data/15100063/standard.do",
+        "source_file": "living/15100063_gunwi.csv",
+        "source_row": 2,
+        "note": "도로 전체의 선형 또는 중간점이 아님."
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bicycle:3:기점",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.708712525,
+          36.1615277506
+        ]
+      },
+      "properties": {
+        "name": "화본~이지간 테마도로",
+        "endpoint": "기점",
+        "address": "대구광역시 군위군 군위읍 산성가음로 1160",
+        "parcel_address": "대구광역시 군위군 의흥면 이지리 406-1",
+        "reference_date": "2026-03-05",
+        "source_url": "https://www.data.go.kr/data/15100063/standard.do",
+        "source_file": "living/15100063_gunwi.csv",
+        "source_row": 3,
+        "note": "도로 전체의 선형 또는 중간점이 아님."
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bicycle:3:종점",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.7081263481,
+          36.1700247354
+        ]
+      },
+      "properties": {
+        "name": "화본~이지간 테마도로",
+        "endpoint": "종점",
+        "address": "대구광역시 군위군 의흥면 배일길 11-6",
+        "parcel_address": "대구광역시 군위군 의흥면 이지리 236-7",
+        "reference_date": "2026-03-05",
+        "source_url": "https://www.data.go.kr/data/15100063/standard.do",
+        "source_file": "living/15100063_gunwi.csv",
+        "source_row": 3,
+        "note": "도로 전체의 선형 또는 중간점이 아님."
+      }
+    }
+  ]
+}

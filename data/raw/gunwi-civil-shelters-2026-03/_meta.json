@@ -1,0 +1,26 @@
+{
+  "source_id": "GUNWI_CIVIL_SHELTERS",
+  "name": "군위군 민방위 주민대피시설 현황",
+  "provider": "군위군청",
+  "url": "https://www.gunwi.go.kr/ko/page.do?mnu_uid=840",
+  "reference_date": "2026-03",
+  "retrieved_at": "2026-10-14",
+  "retrieved_by": "Codex",
+  "license": "군위군청 공개자료; 세부 이용조건 확인 필요",
+  "provenance": "verified",
+  "notes": "공식 페이지 2026.3 기준 현황 5곳. 원본 HWPX 주소·면적·수용인원, 좌표 없음. 군위읍 행정복지센터는 2026-03 지정해제 공고에 따라 현행 목록에서 제외. 정확한 기준일은 월까지만 확인.",
+  "files": {
+    "shelter_202603_hwpx.hwpx": {
+      "sha256": "6165e0d1a99806d6edb3ce123256c47a28f2338cc9b2cf28cb4634dafb5d560d",
+      "bytes": 34258
+    },
+    "shelter_closure_hwpx.hwpx": {
+      "sha256": "6ad5ce9878492e3b731212fd6e8bd03ba362c6df7395c134e8d789dc22083576",
+      "bytes": 22915
+    },
+    "shelter_page.html": {
+      "sha256": "7706fe9a64f4bb0de0752aa56932636138356fbf0ebb3cbb609426d978fdad04",
+      "bytes": 219172
+    }
+  }
+}

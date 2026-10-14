@@ -48,6 +48,8 @@ def main() -> None:
     ap.add_argument("--retrieved-at", default=date.today().isoformat())
     ap.add_argument("--retrieved-by", default="")
     ap.add_argument("--encoding", default=None, help="csv 등 비 utf-8 인 경우")
+    ap.add_argument("--provenance", choices=["verified", "verified_import"],
+                    default="verified", help="공식 원본 또는 출처 확인된 이관 묶음")
     ap.add_argument("--notes", default="")
     ap.add_argument("--file", action="append", default=[], required=True,
                     help="복사해 넣을 파일 (여러 번 지정 가능)")
@@ -78,7 +80,7 @@ def main() -> None:
         "retrieved_at": args.retrieved_at,
         "retrieved_by": args.retrieved_by or None,
         "license": args.license,
-        "provenance": "verified",
+        "provenance": args.provenance,
         "notes": args.notes,
         "files": files,
     }

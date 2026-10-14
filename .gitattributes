@@ -1,0 +1,4 @@
+# 동결 원본·이관 파일의 줄바꿈도 원본 해시에 포함된다.
+data/raw/** -text
+data/gunwi/** -text
+downloads/** -text
