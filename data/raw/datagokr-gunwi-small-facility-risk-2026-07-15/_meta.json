@@ -1,0 +1,26 @@
+{
+  "source_id": "DATAGOKR_GUNWI_SMALL_FACILITY_RISK",
+  "name": "대구광역시_군위군_소규모공공시설위험지정정보",
+  "provider": "대구광역시 군위군 (공공데이터포털 전국소규모공공시설위험지정정보표준데이터)",
+  "url": "https://www.data.go.kr/data/15021104/standard.do",
+  "reference_date": "2026-07-15",
+  "retrieved_at": "2026-10-14",
+  "retrieved_by": "Claude Code 에이전트 (사용자 요청 재수집)",
+  "license": "제한 없음",
+  "provenance": "verified",
+  "notes": "표준데이터 15021104 중 군위군 기관 파일(publicDataDetailPk=uddi:e8d9cb41-c8f7-463c-8cd7-f6916f14cd9a_201909301229, atchFileId=FILE_000000003676152, fileDetailSn=1). 기준일은 데이터 내 데이터기준일자 컬럼(전 행 2026-07-15, 파일명 _20260715·포털 stdrDe 와 일치). UTF-8(BOM). 39행 16컬럼, 전 행 군위군(군위읍5·부계면10·삼국유사면7·산성면6·효령면4·우보면3·소보면2·의흥면2). 위도·경도 39행 모두 있음. 시설유형 세천28·소교량7·농로3·마을진입로1. 지정일자 2024-02-07 37행(고시 제2024-9호), 2017-02-28 2행. 위험시설해제일자 채워진 행 1(내량천, 2018-06-05 해제) → 현행 지정 38건. 지정사유·도로명주소·시설부속물 전부 공란, 폭 13행만. 팀원 파일 없음(비교 대상 없음); 이전 시험 다운로드본과 sha256 동일.",
+  "files": {
+    "대구광역시_군위군_소규모공공시설위험지정정보_20260715.csv": {
+      "sha256": "1b5aa7e47512f4336967a60dcd4fbc4bc7bb81b0db3947f599ff4179c32bdcbc",
+      "bytes": 8851
+    },
+    "capture.html": {
+      "sha256": "fc28461ff9e85c422e106771751bbf45c9db031d2288d1cefbe2fc505a3bdd3d",
+      "bytes": 1148022
+    },
+    "capture-file-detail.html": {
+      "sha256": "1b6bccb698e33f8da8bf2a657b5c087db11e8095b3882c812ebd9fa8f161bc86",
+      "bytes": 7621
+    }
+  }
+}

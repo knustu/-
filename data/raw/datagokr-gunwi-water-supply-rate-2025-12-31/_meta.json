@@ -1,0 +1,23 @@
+{
+  "source_id": "DATAGOKR_GUNWI_WATER_SUPPLY_RATE",
+  "name": "대구광역시 군위군_상수도보급률 현황",
+  "provider": "대구광역시 군위군 (공공데이터포털 파일데이터)",
+  "url": "https://www.data.go.kr/data/15144103/fileData.do",
+  "reference_date": "2025-12-31",
+  "retrieved_at": "2026-10-14",
+  "retrieved_by": "Claude Code 에이전트 (사용자 요청 재수집)",
+  "license": "제한 없음",
+  "provenance": "verified",
+  "notes": "읍면별 상수도보급률(%) 8행(읍면 8개, 군 합계 행 없음). 컬럼: 시도명,시군구명,읍면명,상수도보급률(2025년 12월말 기준). 좌표 없음. 전 행 군위군. 읍면명은 프로젝트 표준 8개와 정확히 일치. reference_date 는 컬럼명 '2025년 12월말 기준'과 포털 파일데이터명 접미 _20251231 근거(데이터기준일자 컬럼 없음). 다운로드 파일명은 _20260622(포털 갱신일로 보임, 수정일 2026-06-23)이라 기준일로 쓰지 않음. 팀원 파일(아직 위치미정/..._20251231.csv)과 sha256 일치(바이트 동일, 파일명만 다름).",
+  "files": {
+    "대구광역시 군위군_상수도보급률 현황_20260622.csv": {
+      "sha256": "eaee3412e5e7955f60788991e27b3d1d2ffd41c1d3f26ddddaa2626d2231feba",
+      "bytes": 293
+    },
+    "capture.html": {
+      "sha256": "f49e340644fe8df80ddbcc0c21d87eda269ad938042601513adf4d6717724113",
+      "bytes": 204843
+    }
+  },
+  "encoding": "cp949"
+}
