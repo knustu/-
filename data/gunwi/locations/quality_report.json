@@ -1,0 +1,50 @@
+{
+  "checked_at": "2026-10-14",
+  "inventory_rows": 1467,
+  "facility_types": {
+    "도시공원": 3,
+    "관광시설(공원·정원 포함)": 3,
+    "개방화장실": 63,
+    "공중화장실": 48,
+    "이동화장실": 37,
+    "보안등": 940,
+    "경로당": 215,
+    "소방용수시설": 152,
+    "119안전센터": 2,
+    "관할소방서": 1,
+    "자전거도로": 3
+  },
+  "coordinate_status": {
+    "원본에 좌표 있음": 373,
+    "주소만 있음": 1091,
+    "기종점 좌표 있음": 3
+  },
+  "facility_point_features": 373,
+  "bicycle_endpoint_features": 6,
+  "address_only_rows": 1091,
+  "outside_county_jurisdiction_facilities": 1,
+  "demolished_fire_water_rows": 1,
+  "road_named_node_rows": 441,
+  "road_named_node_outside_screening_extent": 441,
+  "road_nodes_included_in_gis": 0,
+  "related_complaint_cases": 4,
+  "complaint_cases_with_specific_location": 0,
+  "screening_extent": {
+    "latitude": [
+      35.8,
+      36.4
+    ],
+    "longitude": [
+      128.2,
+      129.0
+    ]
+  },
+  "screening_limit": "대략적 범위 검사이며 행정경계 내 위치나 실제 현장 정확도를 보증하지 않음.",
+  "toilet_snapshot_precision": "파일명 기준 2025년. 정확한 조사 기준일 미기재.",
+  "toilet_types": {
+    "개방화장실": 63,
+    "공중화장실": 48,
+    "이동화장실": 37
+  },
+  "mobile_toilet_rows": 37
+}
