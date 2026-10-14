@@ -1,0 +1,154 @@
+{
+  "matching": 58,
+  "existing_mismatches": [
+    {
+      "file": "data/raw/mois-age-2026-08/capture.html",
+      "reason": "CRLF normalized to LF",
+      "source_id": "MOIS_AGE_2026_08",
+      "source_url": "https://jumin.mois.go.kr/ageStatMonth.do",
+      "reference_date": "2026-08-31",
+      "recorded_sha256": "bb67c8f9e12a8bcd3f234b84734c54206387d94054af43e5399127f1a1582a44",
+      "actual_sha256": "bc50c382d37b200956993508aedc00a653ae2dc88aecfb9f844ab9a583368aaa",
+      "action": "기존 동결본 보존; 추가 시설에 필요한 주차장·세천은 공식 원본을 새 폴더에 재등록"
+    },
+    {
+      "file": "data/raw/datagokr-gunwi-parking-2026-04-15/대구광역시_군위군_주차장정보_20260415.csv",
+      "reason": "CRLF normalized to LF",
+      "source_id": "DATAGOKR_GUNWI_PARKING",
+      "source_url": "https://www.data.go.kr/data/15012896/standard.do",
+      "reference_date": "2026-04-15",
+      "recorded_sha256": "796b5c6e7ee9d506680090a6c2b9ef92fa0cb823bdc098c1a277a6312e079f0d",
+      "actual_sha256": "6856da74a98973724fb03a4aa4f8c8bf5f60a923bd3f72316915100a61143f2d",
+      "action": "기존 동결본 보존; 추가 시설에 필요한 주차장·세천은 공식 원본을 새 폴더에 재등록"
+    },
+    {
+      "file": "data/raw/daegu-unserved-water-pop-2025-06-25/군위군 미급수인구(2025년) (1).csv",
+      "reason": "CRLF normalized to LF",
+      "source_id": "DAEGU_UNSERVED_WATER_POP",
+      "source_url": "https://www.data.go.kr/data/15129242/fileData.do",
+      "reference_date": "2025-06-25",
+      "recorded_sha256": "49ab86da9c6a4bc7a65b0e34952b8dc449c398e132ca286204262cfaeb9df173",
+      "actual_sha256": "b2ee4e2110c905943850e318e77914ffe9aaad12e63f436ebd740e24dec42587",
+      "action": "기존 동결본 보존; 추가 시설에 필요한 주차장·세천은 공식 원본을 새 폴더에 재등록"
+    },
+    {
+      "file": "data/raw/datagokr-gunwi-water-supply-rate-2025-12-31/대구광역시 군위군_상수도보급률 현황_20260622.csv",
+      "reason": "CRLF normalized to LF",
+      "source_id": "DATAGOKR_GUNWI_WATER_SUPPLY_RATE",
+      "source_url": "https://www.data.go.kr/data/15144103/fileData.do",
+      "reference_date": "2025-12-31",
+      "recorded_sha256": "eaee3412e5e7955f60788991e27b3d1d2ffd41c1d3f26ddddaa2626d2231feba",
+      "actual_sha256": "3b2e271a3069dd7ff1aba54864f94dad3c4b856c994c3294b3863a625082ea24",
+      "action": "기존 동결본 보존; 추가 시설에 필요한 주차장·세천은 공식 원본을 새 폴더에 재등록"
+    },
+    {
+      "file": "data/raw/datagokr-gunwi-illegal-parking-2024-12-31/대구광역시 군위군_불법주정차 신고 데이터(2024)_20251201.csv",
+      "reason": "CRLF normalized to LF",
+      "source_id": "DATAGOKR_GUNWI_ILLEGAL_PARKING",
+      "source_url": "https://www.data.go.kr/data/15155502/fileData.do",
+      "reference_date": "2024-12-31",
+      "recorded_sha256": "9a308a1bc480742e30757ab31e59b5ef5658256b64dc9608989f2cdde3994376",
+      "actual_sha256": "633e5e95dd7b0f1a5e6a0b91679b465d67c59b13fb0cede9a4d2ce17c1318efd",
+      "action": "기존 동결본 보존; 추가 시설에 필요한 주차장·세천은 공식 원본을 새 폴더에 재등록"
+    },
+    {
+      "file": "data/raw/mois-age-2024-12/capture.html",
+      "reason": "CRLF normalized to LF",
+      "source_id": "MOIS_AGE_2024_12",
+      "source_url": "https://jumin.mois.go.kr/ageStatMonth.do",
+      "reference_date": "2024-12-31",
+      "recorded_sha256": "30f0eba09704d4c6940ccb3d3d5f85340782dfc2edd209bd68dca14b181b892d",
+      "actual_sha256": "c3e0395f64d20ca614115fb86e52cfe995c41117d2833036224c0373ed15a76a",
+      "action": "기존 동결본 보존; 추가 시설에 필요한 주차장·세천은 공식 원본을 새 폴더에 재등록"
+    },
+    {
+      "file": "data/raw/gunwi-village-population-2008-2021/capture.html",
+      "reason": "CRLF normalized to LF",
+      "source_id": "GUNWI_VILLAGE_POP_2008_2021",
+      "source_url": "https://www.data.go.kr/data/15030769/fileData.do",
+      "reference_date": "2021-12-31",
+      "recorded_sha256": "2e538e09efef123093c35bbc0b9e524fd0f472ce68e936454eef5c6513d8a511",
+      "actual_sha256": "585190b66bb8068224f0bfc339361f2756c4f74e98a45051b5c17cf3c42392d6",
+      "action": "기존 동결본 보존; 추가 시설에 필요한 주차장·세천은 공식 원본을 새 폴더에 재등록"
+    },
+    {
+      "file": "data/raw/gunwi-village-population-2008-2021/population.csv",
+      "reason": "CRLF normalized to LF",
+      "source_id": "GUNWI_VILLAGE_POP_2008_2021",
+      "source_url": "https://www.data.go.kr/data/15030769/fileData.do",
+      "reference_date": "2021-12-31",
+      "recorded_sha256": "8ab6b8b86dfea05b51193466c7ac25fb5778f349b849873be87fd46e3ef4f2b9",
+      "actual_sha256": "c9bfbbdf9806094a5d16ff9425ec2d99ec5aab52052ea9b6c3ad41e6bd9e7acd",
+      "action": "기존 동결본 보존; 추가 시설에 필요한 주차장·세천은 공식 원본을 새 폴더에 재등록"
+    },
+    {
+      "file": "data/raw/daegu-salpiso-reports-2024-11-27/대구광역시_살피소처리현황.csv",
+      "reason": "CRLF normalized to LF",
+      "source_id": "DAEGU_SALPISO_REPORTS",
+      "source_url": "https://www.data.go.kr/data/15063706/fileData.do",
+      "reference_date": "2024-11-27",
+      "recorded_sha256": "a4f621471f15b592f01891d92680b37edafe891894ec4bc76cd855dd60834cf0",
+      "actual_sha256": "3e0c2ef445cb58efa983081114947bfc6228b8202e279064a63373562c06ff9f",
+      "action": "기존 동결본 보존; 추가 시설에 필요한 주차장·세천은 공식 원본을 새 폴더에 재등록"
+    },
+    {
+      "file": "data/raw/mois-age-2023-12/capture.html",
+      "reason": "CRLF normalized to LF",
+      "source_id": "MOIS_AGE_2023_12",
+      "source_url": "https://jumin.mois.go.kr/ageStatMonth.do",
+      "reference_date": "2023-12-31",
+      "recorded_sha256": "4d93c12e1be4fec0dc581e04d1ddb64d4bde1a76ac9ad1dee80b45c9e49b3a26",
+      "actual_sha256": "141bb21a07d36058f1674c2ada0ea08c65f255bd023b7a8a6b6482f35d08990b",
+      "action": "기존 동결본 보존; 추가 시설에 필요한 주차장·세천은 공식 원본을 새 폴더에 재등록"
+    },
+    {
+      "file": "data/raw/mois-age-2025-12/capture.html",
+      "reason": "CRLF normalized to LF",
+      "source_id": "MOIS_AGE_2025_12",
+      "source_url": "https://jumin.mois.go.kr/ageStatMonth.do",
+      "reference_date": "2025-12-31",
+      "recorded_sha256": "16898d96be9ffa1a3a1c093ed90d213a5c6ed1a42727889b00b2be5bcff092f5",
+      "actual_sha256": "d48e69ab691fbd2a083d26acca1fb95a501db42c0e3d272e8be9b513ba5471bf",
+      "action": "기존 동결본 보존; 추가 시설에 필요한 주차장·세천은 공식 원본을 새 폴더에 재등록"
+    },
+    {
+      "file": "data/raw/boundary-eupmyeon-2025-06-30/boundary-alt.geojson",
+      "reason": "CRLF normalized to LF",
+      "source_id": "BOUNDARY_EUPMYEON_2025Q2",
+      "source_url": null,
+      "reference_date": "2025-06-30",
+      "recorded_sha256": "375a779c7370a40a20eeb9cd5f933b3a292b459f2c85719e4c51256b61b4f51d",
+      "actual_sha256": "6f52f3fa7fc6d539eb9cbf88af139d52582702049dac3d3b4102dc4414c15fbc",
+      "action": "기존 동결본 보존; 추가 시설에 필요한 주차장·세천은 공식 원본을 새 폴더에 재등록"
+    },
+    {
+      "file": "data/raw/boundary-eupmyeon-2025-06-30/eupmyeon.geojson",
+      "reason": "CRLF normalized to LF",
+      "source_id": "BOUNDARY_EUPMYEON_2025Q2",
+      "source_url": null,
+      "reference_date": "2025-06-30",
+      "recorded_sha256": "d6b8cd2334006248d1d5469e233c69f439e144abf343fe9c2e08e7c989fa3932",
+      "actual_sha256": "18d8bf510a7895c257db13637f7618e61e3c0fff6ea120abba64109a9d8526eb",
+      "action": "기존 동결본 보존; 추가 시설에 필요한 주차장·세천은 공식 원본을 새 폴더에 재등록"
+    },
+    {
+      "file": "data/raw/datagokr-gunwi-small-facility-risk-2026-07-15/대구광역시_군위군_소규모공공시설위험지정정보_20260715.csv",
+      "reason": "CRLF normalized to LF",
+      "source_id": "DATAGOKR_GUNWI_SMALL_FACILITY_RISK",
+      "source_url": "https://www.data.go.kr/data/15021104/standard.do",
+      "reference_date": "2026-07-15",
+      "recorded_sha256": "1b5aa7e47512f4336967a60dcd4fbc4bc7bb81b0db3947f599ff4179c32bdcbc",
+      "actual_sha256": "983153c8de919e158fae2e498c160b4ab06bd3e78299181454deb8f430770390",
+      "action": "기존 동결본 보존; 추가 시설에 필요한 주차장·세천은 공식 원본을 새 폴더에 재등록"
+    }
+  ],
+  "checked_at": "2026-10-14",
+  "policy_url": "https://github.com/nahcub/gunwi/blob/26ed5a10654a68dbe887f28093dd197d1f847c23/CLAUDE.md",
+  "data_commit": "a50f4afeabefb3c41642abafbdf6283826c64e1b",
+  "previous_frozen_files_compared": 63,
+  "previous_frozen_files_modified": 0,
+  "new_raw_folders": 10,
+  "new_raw_files_with_matching_hashes": 23,
+  "tests_passed": 19,
+  "unresolved_boundary_provenance": "UNVERIFIED"
+}

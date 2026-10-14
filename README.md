@@ -89,6 +89,7 @@ docs/methodology.md  산식 근거. 공식 기준과 프로젝트 파생지표�
 
 - [기존 시설·소방·도로·공개민원 자료 안내](FACILITY_DATA_README.md)
 - [추가 8개 공공시설 분야 조사](docs/facility-data-survey.md)
+- [CLAUDE.md 기준 정리·출처 점검 보고서](docs/claude-compliance-report.md)
 - [전체 공식 출처 레지스트리](data/sources.json)
 - [이관 파일별 출처·해시](data/gunwi/_meta.json)
 - [공유용 압축파일](downloads/)
