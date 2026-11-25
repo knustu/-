@@ -1,15 +1,14 @@
 # 군위군 생활불편 민원 기반 시설관리 우선지역 분석
 
 군위군 8개 읍·면의 생활불편 민원과 공공시설 정보를 결합해 시설관리 우선지역을
-도출하는 것이 목표다. 현재는 **민원 원자료를 확보하지 못해 인구·고령화율까지만
-지도에 표시**하며, 민원 관련 지표는 "미확보"로 비활성 표시한다.
-
-화면의 모든 숫자는 실제 공식 자료에서 나온 값이다. 샘플값이나 임의 생성값은 없다.
+도출하는 것이 목표다. 현재 지도에는 확보한 인구·고령화율과 도시공원 위치를 표시한다.
+민원 원자료가 필요한 지표는 화면에서 **미확보**로 표시한다. 자료의 출처와 기준일은
+[출처 레지스트리](data/sources.json)에서 확인할 수 있다.
 
 ## 실행
 
 ```bash
-npm ci                    # wrangler 하나
+npm install               # Wrangler 설치
 pip install -r requirements.txt
 
 npm run prepare-data      # data/raw -> data/derived  (검증)
@@ -33,9 +32,9 @@ npm run dev               # 빌드 후 http://127.0.0.1:8787
      ↓
 data/raw/          받은 그대로. 동결. _meta.json 에 출처·수집일·sha256
      ↓             tools/prepare.py   <- assert 검증 관문
-data/derived/      정제·검증 통과분                커밋 O   공개 X
-     ↓             tools/build.py     <- 공개 결정 지점
-public/data/       화면용                          커밋 X   공개 O
+data/derived/      정제·검증 통과분 · Git에 저장
+     ↓             tools/build.py     <- 웹용 데이터 생성
+public/data/       화면용 JSON · 빌드 때 생성
      ↓
 public/index.html  브라우저가 런타임에 fetch 해서 region_code 로 조인
 ```
